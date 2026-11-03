@@ -1,0 +1,1416 @@
+{
+ "random": [
+  {
+   "seed": 10000,
+   "score": 40.0,
+   "outcome": "bankrupt",
+   "pop": 4,
+   "gold": 0,
+   "debt": 251,
+   "turns": 44,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10001,
+   "score": -259.6,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 11,
+   "debt": 80,
+   "turns": 21,
+   "region": "river valley"
+  },
+  {
+   "seed": 10002,
+   "score": 340.9,
+   "outcome": "bankrupt",
+   "pop": 8,
+   "gold": 0,
+   "debt": 274,
+   "turns": 29,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10003,
+   "score": -232.5,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 167,
+   "turns": 30,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10004,
+   "score": 1024.2,
+   "outcome": "bankrupt",
+   "pop": 12,
+   "gold": 0,
+   "debt": 292,
+   "turns": 67,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10005,
+   "score": 398.4,
+   "outcome": "bankrupt",
+   "pop": 9,
+   "gold": 0,
+   "debt": 270,
+   "turns": 79,
+   "region": "river valley"
+  },
+  {
+   "seed": 10006,
+   "score": 292.2,
+   "outcome": "bankrupt",
+   "pop": 8,
+   "gold": 0,
+   "debt": 303,
+   "turns": 49,
+   "region": "river valley"
+  },
+  {
+   "seed": 10007,
+   "score": 102.6,
+   "outcome": "bankrupt",
+   "pop": 27,
+   "gold": 1,
+   "debt": 351,
+   "turns": 39,
+   "region": "river valley"
+  },
+  {
+   "seed": 10008,
+   "score": 568.0,
+   "outcome": "bankrupt",
+   "pop": 10,
+   "gold": 35,
+   "debt": 297,
+   "turns": 39,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10009,
+   "score": 1058.8,
+   "outcome": "bankrupt",
+   "pop": 35,
+   "gold": 0,
+   "debt": 292,
+   "turns": 31,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10010,
+   "score": 416.3,
+   "outcome": "bankrupt",
+   "pop": 12,
+   "gold": 0,
+   "debt": 267,
+   "turns": 40,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10011,
+   "score": 284.1,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 156,
+   "turns": 44,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10012,
+   "score": 1267.0,
+   "outcome": "bankrupt",
+   "pop": 41,
+   "gold": 0,
+   "debt": 342,
+   "turns": 43,
+   "region": "river valley"
+  },
+  {
+   "seed": 10013,
+   "score": 761.2,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 214,
+   "turns": 39,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10014,
+   "score": 2419.8,
+   "outcome": "bankrupt",
+   "pop": 57,
+   "gold": 33,
+   "debt": 468,
+   "turns": 84,
+   "region": "river valley"
+  },
+  {
+   "seed": 10015,
+   "score": 697.3,
+   "outcome": "bankrupt",
+   "pop": 36,
+   "gold": 447,
+   "debt": 276,
+   "turns": 19,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10016,
+   "score": 579.3,
+   "outcome": "bankrupt",
+   "pop": 17,
+   "gold": 28,
+   "debt": 315,
+   "turns": 59,
+   "region": "river valley"
+  },
+  {
+   "seed": 10017,
+   "score": 1189.8,
+   "outcome": "bankrupt",
+   "pop": 20,
+   "gold": 0,
+   "debt": 277,
+   "turns": 53,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10018,
+   "score": -454.0,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 26,
+   "debt": 240,
+   "turns": 35,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10019,
+   "score": 18.9,
+   "outcome": "bankrupt",
+   "pop": 3,
+   "gold": 0,
+   "debt": 255,
+   "turns": 35,
+   "region": "river valley"
+  }
+ ],
+ "cruise": [
+  {
+   "seed": 10000,
+   "score": 678.9,
+   "outcome": "survived",
+   "pop": 24,
+   "gold": 216,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10001,
+   "score": 2562.8,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 1983,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10002,
+   "score": 298.8,
+   "outcome": "survived",
+   "pop": 15,
+   "gold": 10,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10003,
+   "score": 434.9,
+   "outcome": "survived",
+   "pop": 18,
+   "gold": 164,
+   "debt": 0,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10004,
+   "score": 2089.6,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 1474,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10005,
+   "score": -266.3,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 1,
+   "debt": 0,
+   "turns": 83,
+   "region": "river valley"
+  },
+  {
+   "seed": 10006,
+   "score": 399.1,
+   "outcome": "survived",
+   "pop": 12,
+   "gold": 58,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10007,
+   "score": 578.5,
+   "outcome": "survived",
+   "pop": 24,
+   "gold": 45,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10008,
+   "score": 1097.3,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 427,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10009,
+   "score": 523.6,
+   "outcome": "survived",
+   "pop": 23,
+   "gold": 45,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10010,
+   "score": -310.7,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 25,
+   "turns": 99,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10011,
+   "score": 419.6,
+   "outcome": "survived",
+   "pop": 18,
+   "gold": 49,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10012,
+   "score": 2705.6,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 2151,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10013,
+   "score": 323.3,
+   "outcome": "survived",
+   "pop": 14,
+   "gold": 22,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10014,
+   "score": 244.0,
+   "outcome": "survived",
+   "pop": 5,
+   "gold": 17,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10015,
+   "score": 290.5,
+   "outcome": "survived",
+   "pop": 10,
+   "gold": 13,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10016,
+   "score": 512.3,
+   "outcome": "survived",
+   "pop": 15,
+   "gold": 221,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10017,
+   "score": 2973.4,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 2322,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10018,
+   "score": 224.8,
+   "outcome": "survived",
+   "pop": 4,
+   "gold": 0,
+   "debt": 19,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10019,
+   "score": 398.8,
+   "outcome": "survived",
+   "pop": 9,
+   "gold": 162,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  }
+ ],
+ "greedy": [
+  {
+   "seed": 10000,
+   "score": 824.1,
+   "outcome": "survived",
+   "pop": 19,
+   "gold": 365,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10001,
+   "score": 4196.7,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 3574,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10002,
+   "score": 203.8,
+   "outcome": "survived",
+   "pop": 12,
+   "gold": 0,
+   "debt": 76,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10003,
+   "score": 609.0,
+   "outcome": "survived",
+   "pop": 21,
+   "gold": 278,
+   "debt": 0,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10004,
+   "score": 2983.5,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 2397,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10005,
+   "score": -442.9,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 55,
+   "turns": 68,
+   "region": "river valley"
+  },
+  {
+   "seed": 10006,
+   "score": 500.2,
+   "outcome": "survived",
+   "pop": 21,
+   "gold": 161,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10007,
+   "score": 1198.8,
+   "outcome": "survived",
+   "pop": 32,
+   "gold": 618,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10008,
+   "score": 2052.9,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 1432,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10009,
+   "score": 2907.4,
+   "outcome": "survived",
+   "pop": 31,
+   "gold": 2351,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10010,
+   "score": 597.3,
+   "outcome": "survived",
+   "pop": 20,
+   "gold": 232,
+   "debt": 0,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10011,
+   "score": 467.7,
+   "outcome": "survived",
+   "pop": 17,
+   "gold": 207,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10012,
+   "score": 3510.8,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 2957,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10013,
+   "score": 1434.0,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 799,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10014,
+   "score": 742.0,
+   "outcome": "survived",
+   "pop": 19,
+   "gold": 461,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10015,
+   "score": 361.4,
+   "outcome": "survived",
+   "pop": 10,
+   "gold": 99,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10016,
+   "score": 502.6,
+   "outcome": "survived",
+   "pop": 18,
+   "gold": 122,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10017,
+   "score": 3815.1,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 3191,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10018,
+   "score": -608.8,
+   "outcome": "bankrupt",
+   "pop": 5,
+   "gold": 0,
+   "debt": 265,
+   "turns": 66,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10019,
+   "score": 482.2,
+   "outcome": "survived",
+   "pop": 13,
+   "gold": 243,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  }
+ ],
+ "lookahead4": [
+  {
+   "seed": 10000,
+   "score": 941.2,
+   "outcome": "survived",
+   "pop": 48,
+   "gold": 428,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10001,
+   "score": 4160.9,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 3538,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10002,
+   "score": 2527.3,
+   "outcome": "survived",
+   "pop": 41,
+   "gold": 1725,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10003,
+   "score": 1619.6,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 902,
+   "debt": 0,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10004,
+   "score": 5195.8,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 4642,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10005,
+   "score": 1640.0,
+   "outcome": "survived",
+   "pop": 25,
+   "gold": 1125,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10006,
+   "score": 1957.7,
+   "outcome": "survived",
+   "pop": 32,
+   "gold": 1353,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10007,
+   "score": 5207.8,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 4518,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10008,
+   "score": 3263.3,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 2616,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10009,
+   "score": 3883.6,
+   "outcome": "survived",
+   "pop": 31,
+   "gold": 3311,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10010,
+   "score": 873.9,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 274,
+   "debt": 0,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10011,
+   "score": 2074.9,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1442,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10012,
+   "score": 4437.0,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 3807,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10013,
+   "score": 1517.8,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 922,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10014,
+   "score": 3452.2,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 2934,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10015,
+   "score": 3450.6,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 2791,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10016,
+   "score": 3045.1,
+   "outcome": "survived",
+   "pop": 31,
+   "gold": 2567,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10017,
+   "score": 4872.5,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 4206,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10018,
+   "score": -387.5,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 159,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10019,
+   "score": 935.5,
+   "outcome": "survived",
+   "pop": 31,
+   "gold": 577,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  }
+ ],
+ "lookahead10": [
+  {
+   "seed": 10000,
+   "score": 2353.0,
+   "outcome": "survived",
+   "pop": 96,
+   "gold": 1136,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10001,
+   "score": 4637.5,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 4084,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10002,
+   "score": 2866.9,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 2208,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10003,
+   "score": 82.9,
+   "outcome": "survived",
+   "pop": 15,
+   "gold": 0,
+   "debt": 33,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10004,
+   "score": 5872.0,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 5202,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10005,
+   "score": 2461.6,
+   "outcome": "survived",
+   "pop": 32,
+   "gold": 1776,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10006,
+   "score": 3618.7,
+   "outcome": "survived",
+   "pop": 42,
+   "gold": 2865,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10007,
+   "score": 6306.4,
+   "outcome": "survived",
+   "pop": 47,
+   "gold": 5433,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10008,
+   "score": 3349.3,
+   "outcome": "survived",
+   "pop": 45,
+   "gold": 2588,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10009,
+   "score": 4641.7,
+   "outcome": "survived",
+   "pop": 31,
+   "gold": 4069,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10010,
+   "score": 2745.8,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 2081,
+   "debt": 0,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10011,
+   "score": 2210.1,
+   "outcome": "survived",
+   "pop": 54,
+   "gold": 1318,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10012,
+   "score": 4606.3,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 3878,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10013,
+   "score": 1960.6,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 1314,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10014,
+   "score": 4590.2,
+   "outcome": "survived",
+   "pop": 43,
+   "gold": 3761,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10015,
+   "score": 4389.1,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 3733,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10016,
+   "score": 5275.3,
+   "outcome": "survived",
+   "pop": 31,
+   "gold": 4673,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10017,
+   "score": 5429.0,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 4741,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10018,
+   "score": -597.4,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 137,
+   "turns": 91,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10019,
+   "score": 4374.4,
+   "outcome": "survived",
+   "pop": 100,
+   "gold": 2658,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  }
+ ],
+ "lookahead20": [
+  {
+   "seed": 10000,
+   "score": 3851.6,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 3086,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10001,
+   "score": 4894.2,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 4314,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10002,
+   "score": 3327.8,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 2695,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10003,
+   "score": 2046.0,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1391,
+   "debt": 0,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10004,
+   "score": 6724.4,
+   "outcome": "survived",
+   "pop": 45,
+   "gold": 5743,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10005,
+   "score": 3217.5,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 2520,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10006,
+   "score": 3863.1,
+   "outcome": "survived",
+   "pop": 60,
+   "gold": 3006,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10007,
+   "score": 5464.6,
+   "outcome": "survived",
+   "pop": 45,
+   "gold": 4672,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10008,
+   "score": 4424.3,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 3726,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10009,
+   "score": 5137.2,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 4412,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10010,
+   "score": 3091.9,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 2427,
+   "debt": 0,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10011,
+   "score": 2245.2,
+   "outcome": "survived",
+   "pop": 127,
+   "gold": 954,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10012,
+   "score": 5116.6,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 4381,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10013,
+   "score": 2448.5,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 1784,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10014,
+   "score": 6176.1,
+   "outcome": "survived",
+   "pop": 87,
+   "gold": 4649,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10015,
+   "score": 4678.4,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 4024,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10016,
+   "score": 6114.1,
+   "outcome": "survived",
+   "pop": 53,
+   "gold": 5262,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10017,
+   "score": 5468.9,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 4831,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10018,
+   "score": -326.3,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 89,
+   "turns": 99,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10019,
+   "score": 4131.1,
+   "outcome": "survived",
+   "pop": 33,
+   "gold": 3350,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  }
+ ],
+ "lookahead40": [
+  {
+   "seed": 10000,
+   "score": 3895.0,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 3239,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10001,
+   "score": 5239.6,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 4634,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10002,
+   "score": 3390.6,
+   "outcome": "survived",
+   "pop": 41,
+   "gold": 2715,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10003,
+   "score": 2168.7,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1524,
+   "debt": 0,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10004,
+   "score": 7349.7,
+   "outcome": "survived",
+   "pop": 58,
+   "gold": 6261,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10005,
+   "score": 3620.1,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 2728,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10006,
+   "score": 4873.3,
+   "outcome": "survived",
+   "pop": 75,
+   "gold": 3630,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10007,
+   "score": 6182.4,
+   "outcome": "survived",
+   "pop": 47,
+   "gold": 5137,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10008,
+   "score": 3971.1,
+   "outcome": "survived",
+   "pop": 45,
+   "gold": 3309,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10009,
+   "score": 6473.8,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 5754,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10010,
+   "score": 3231.4,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 2607,
+   "debt": 0,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10011,
+   "score": 4990.7,
+   "outcome": "survived",
+   "pop": 141,
+   "gold": 2663,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10012,
+   "score": 5800.6,
+   "outcome": "survived",
+   "pop": 45,
+   "gold": 4940,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10013,
+   "score": 2629.9,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 2018,
+   "debt": 0,
+   "turns": 100,
+   "region": "mountain hold"
+  },
+  {
+   "seed": 10014,
+   "score": 7336.4,
+   "outcome": "survived",
+   "pop": 58,
+   "gold": 5871,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10015,
+   "score": 5079.0,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 4397,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10016,
+   "score": 6310.0,
+   "outcome": "survived",
+   "pop": 54,
+   "gold": 5266,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  },
+  {
+   "seed": 10017,
+   "score": 6485.0,
+   "outcome": "survived",
+   "pop": 53,
+   "gold": 5656,
+   "debt": 0,
+   "turns": 100,
+   "region": "forest coast"
+  },
+  {
+   "seed": 10018,
+   "score": 168.7,
+   "outcome": "survived",
+   "pop": 5,
+   "gold": 0,
+   "debt": 55,
+   "turns": 100,
+   "region": "arid steppe"
+  },
+  {
+   "seed": 10019,
+   "score": 4073.0,
+   "outcome": "survived",
+   "pop": 33,
+   "gold": 3317,
+   "debt": 0,
+   "turns": 100,
+   "region": "river valley"
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+random       mean    208.2  median     72.3  failed 20/20  (0s)
+cruise       mean    407.4  median    302.4  failed  4/20  (0s)
+greedy       mean    993.2  median    683.2  failed  3/20  (1s)
+lookahead10  mean   2198.2  median   1874.5  failed  1/20  (5s)
+lookahead40  mean   3372.7  median   3101.3  failed  0/20  (14s)
