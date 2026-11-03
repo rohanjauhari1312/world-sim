@@ -32,6 +32,8 @@ Score rises steadily with planning depth, so there is room for a model to learn 
 
 `eval_llm.py` ran end to end with Qwen2.5-0.5B (4-bit) on 3 unseen worlds, 20 turns each. Full per-turn traces are in `results/llm_qwen0p5b_v2/`. With a worked example in the prompt the model returned unusable replies in 4 to 14 of 20 turns (17 of 20 without it), so it is not yet a meaningful player. 20-turn scores are not comparable to the 100-turn baselines above. Use a Python environment outside iCloud-synced folders for mlx-lm.
 
-## Not done yet
+## 9B result
 
-The 9B model test. No 9B model is downloaded here.
+Gemma-2-9B-it (4-bit) on the same 3 worlds, 20 turns, traces in `results/llm_gemma2_9b/`. Zero unusable replies, and the plans read sensibly (more farms and housing for growth), but execution is sloppy: it assigns more workers than exist and orders builds it cannot afford. Mean score 917, against 1180 for the no-investing policy, 1742 for greedy and 4025 for the 20-turn planner on the same worlds. So a 9B model plays below a policy that never invests, and well below one that looks ahead.
+
+Only 3 worlds at 20 turns. A 100-turn, 20-world run is the next step.

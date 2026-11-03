@@ -15,7 +15,7 @@ pre{margin:6px 0;height:150px}h3{margin:0 0 6px}button,input{margin:8px 6px 0 0}
 <button id=pp>pause</button><input id=sl type=range min=0 max=100 value=0 style=width:400px><span id=tt></span>
 <script>
 const D=DATA,COL={farm:'#c8b43c',lumberyard:'#287832',mine:'#6e6e78',house:'#be5a46',school:'#465ac8',levee:'#3ca0c8'};
-let t=0,play=true;
+let t=+location.hash.slice(1)||0,play=!location.hash;
 function draw(i,s){const c=document.getElementById('c'+i).getContext('2d');
 c.fillStyle='rgb('+(150+60*s.fert|0)+',200,120)';c.fillRect(0,0,192,160);let n=0;
 for(const k in s.b)for(let j=0;j<s.b[k];j++){if(n<24*18){c.fillStyle=COL[k];c.fillRect((n%24)*8+1,(n/24|0)*8+1,6,6);n++}}

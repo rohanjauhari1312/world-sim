@@ -44,7 +44,7 @@ def run_episode(model, tok, sampler, seed, split, horizon, max_tokens, trace_pat
             if memory:
                 user = "Recent turns:\n" + "\n".join(memory[-3:]) + "\n\nNow:\n" + obs
             prompt = tok.apply_chat_template(
-                [{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}],
+                [{"role": "user", "content": SYSTEM + "\n\n" + user}],
                 add_generation_prompt=True, tokenize=False)
             out = generate(model, tok, prompt=prompt, max_tokens=max_tokens, sampler=sampler)
             msg = parse(out)

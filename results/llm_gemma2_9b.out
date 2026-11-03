@@ -1,0 +1,5 @@
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 4309.95it/s]
+{'seed': 10000, 'score': 834.8, 'outcome': 'survived', 'turns': 20, 'pop': 35, 'bad_replies': 0}
+{'seed': 10001, 'score': 871.9, 'outcome': 'survived', 'turns': 20, 'pop': 37, 'bad_replies': 0}
+{'seed': 10002, 'score': 1044.9, 'outcome': 'survived', 'turns': 20, 'pop': 45, 'bad_replies': 0}
+mean score 917.2, failed 0/3
