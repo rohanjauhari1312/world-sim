@@ -1,4 +1,5 @@
 import argparse
+import multiprocessing as mp
 import json
 import statistics as st
 import time
@@ -21,27 +22,34 @@ def agents(spec):
     return out
 
 
+def one(job):
+    name, seed, env_split, rollouts = job
+    ag = agents([name])[0]
+    if isinstance(ag, Lookahead):
+        ag.rollouts = rollouts
+    env = WorldEnv(seed, env_split)
+    play(env, ag)
+    w = env.w
+    return ag.name, dict(seed=seed, score=round(env.score(), 1), outcome=w.outcome, pop=round(w.pop),
+                         gold=round(w.gold), debt=round(w.debt), turns=w.t, roads=len(w.roads))
+
+
 def run(spec, split, n, rollouts):
     base = SPLITS[split]
     env_split = "ood" if split == "ood" else "train"
     results = {}
-    for ag in agents(spec):
-        if isinstance(ag, Lookahead):
-            ag.rollouts = rollouts
-        rows = []
-        t0 = time.time()
-        for i in range(n):
-            env = WorldEnv(base + i, env_split)
-            play(env, ag)
-            w = env.w
-            rows.append(dict(seed=base + i, score=round(env.score(), 1), outcome=w.outcome,
-                             pop=round(w.pop), gold=round(w.gold), debt=round(w.debt), turns=w.t,
-                             region=w.p["archetype"]))
-        results[ag.name] = rows
-        sc = [r["score"] for r in rows]
-        print("%-12s mean %8.1f  median %8.1f  failed %2d/%d  (%.0fs)" % (
-            ag.name, st.mean(sc), st.median(sc), sum(r["outcome"] != "survived" for r in rows), n,
-            time.time() - t0), flush=True)
+    with mp.Pool() as pool:
+        for name in spec:
+            t0 = time.time()
+            jobs = [(name, base + i, env_split, rollouts) for i in range(n)]
+            out = pool.map(one, jobs, chunksize=1)
+            label = out[0][0]
+            rows = [r for _, r in out]
+            results[label] = rows
+            sc = [r["score"] for r in rows]
+            print("%-12s mean %8.1f  median %8.1f  failed %3d/%d  (%.0fs)" % (
+                label, st.mean(sc), st.median(sc), sum(r["outcome"] != "survived" for r in rows), n,
+                time.time() - t0), flush=True)
     return results
 
 

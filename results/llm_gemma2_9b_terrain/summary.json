@@ -1,0 +1,26 @@
+[
+ {
+  "seed": 10000,
+  "score": 818.0,
+  "outcome": "survived",
+  "turns": 20,
+  "pop": 32,
+  "bad_replies": 1
+ },
+ {
+  "seed": 10001,
+  "score": 450.4,
+  "outcome": "survived",
+  "turns": 20,
+  "pop": 31,
+  "bad_replies": 0
+ },
+ {
+  "seed": 10002,
+  "score": 331.6,
+  "outcome": "survived",
+  "turns": 20,
+  "pop": 27,
+  "bad_replies": 1
+ }
+]

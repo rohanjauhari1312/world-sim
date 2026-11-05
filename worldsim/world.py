@@ -1,6 +1,8 @@
 import math
 import random
 
+from .terrain import INF, N, Terrain
+
 GOODS = ("food", "wood", "ore")
 WORK = ("farm", "lumberyard", "mine")
 BUILDINGS = {
@@ -10,46 +12,46 @@ BUILDINGS = {
     "house": dict(gold=20, wood=12, time=2, slots=0, upkeep=0.0),
     "school": dict(gold=70, wood=18, time=5, slots=0, upkeep=3.0),
     "levee": dict(gold=55, wood=25, time=4, slots=0, upkeep=1.0),
+    "road": dict(gold=10, wood=2, time=1, slots=0, upkeep=0.1),
+    "bridge": dict(gold=45, wood=12, time=3, slots=0, upkeep=0.5),
 }
 PRODUCES = {"farm": "food", "lumberyard": "wood", "mine": "ore"}
-ARCHETYPES = {
-    "river valley": dict(farm=1.25, wood=1.0, ore=0.8, flood=1.8, drought=0.7, depth=1.2),
-    "arid steppe": dict(farm=0.8, wood=0.7, ore=1.2, flood=0.3, drought=1.8, depth=1.0),
-    "forest coast": dict(farm=1.0, wood=1.4, ore=0.9, flood=1.2, drought=0.8, depth=1.5),
-    "mountain hold": dict(farm=0.75, wood=1.0, ore=1.5, flood=0.5, drought=1.0, depth=0.8),
-}
 ACTION_BUDGET = 12
+LEVEE_RADIUS = 3
+_TERRAINS = {}
+
+
+def terrain_for(seed, split, rugged):
+    key = (seed, split, rugged)
+    if key not in _TERRAINS:
+        if len(_TERRAINS) > 400:
+            _TERRAINS.clear()
+        _TERRAINS[key] = Terrain(seed, split, rugged)
+    return _TERRAINS[key]
 
 
 def make_params(seed, split="train"):
     r = random.Random("params-%s-%s" % (seed, split))
-    arch_name = r.choice(sorted(ARCHETYPES))
-    a = ARCHETYPES[arch_name]
     stress = 1.0 if split == "train" else 1.6
-    base_price = {
-        "food": r.uniform(2.4, 3.8),
-        "wood": r.uniform(3.0, 5.0),
-        "ore": r.uniform(7.0, 12.0),
-    }
     return dict(
         seed=seed,
         split=split,
-        archetype=arch_name,
         horizon=100,
+        rugged=r.uniform(0.7, 1.4) * (1.2 if split != "train" else 1.0),
+        transport=r.uniform(0.03, 0.05),
         food_per_pop=r.uniform(0.4, 0.6),
-        yield_={"farm": 1.7 * a["farm"] * r.uniform(0.9, 1.1),
-                "lumberyard": 1.1 * a["wood"] * r.uniform(0.9, 1.1),
-                "mine": 0.85 * a["ore"] * r.uniform(0.9, 1.1)},
-        ore_reserve=r.uniform(120, 350) * (0.6 if split != "train" else 1.0),
+        yield_={"farm": 2.3 * r.uniform(0.9, 1.15),
+                "lumberyard": 1.4 * r.uniform(0.9, 1.15),
+                "mine": 1.1 * r.uniform(0.9, 1.15)},
         fert_decay=r.uniform(0.006, 0.02) * (1.3 if split != "train" else 1.0),
         fert_recover=0.01,
-        base_price=base_price,
+        base_price={"food": r.uniform(2.4, 3.8), "wood": r.uniform(3.0, 5.0), "ore": r.uniform(7.0, 12.0)},
         price_vol=r.uniform(0.03, 0.09) * stress,
         price_revert=r.uniform(0.06, 0.12),
         season_amp=r.uniform(0.08, 0.25),
         season_len=r.choice([12, 16, 20, 24]),
         season_phase={g: r.uniform(0, 2 * math.pi) for g in GOODS},
-        depth={"food": 80 * a["depth"], "wood": 60 * a["depth"], "ore": 40 * a["depth"]},
+        depth={"food": 80 * r.uniform(0.8, 1.5), "wood": 60 * r.uniform(0.8, 1.5), "ore": 40 * r.uniform(0.8, 1.5)},
         impact=r.uniform(0.8, 1.6),
         spread=r.uniform(0.05, 0.12),
         wage=r.uniform(3.0, 5.0),
@@ -61,8 +63,8 @@ def make_params(seed, split="train"):
         election_period=r.choice([15, 20, 25, 30]),
         tax_cap=r.uniform(0.25, 0.45),
         tariff=r.uniform(0.0, 0.2),
-        p_drought=r.uniform(0.02, 0.05) * a["drought"] * stress,
-        p_flood=r.uniform(0.015, 0.04) * a["flood"] * stress,
+        p_drought=r.uniform(0.02, 0.05) * stress,
+        p_flood=r.uniform(0.03, 0.07) * stress,
         p_plague=r.uniform(0.01, 0.03) * stress,
         p_war=r.uniform(0.01, 0.03) * stress,
         start_gold=r.uniform(90, 160),
@@ -73,18 +75,21 @@ def make_params(seed, split="train"):
 class World:
     def __init__(self, params, rng_seed=None):
         self.p = params
+        self.T = terrain_for(params["seed"], params["split"], params["rugged"])
         self.rng = random.Random(params["seed"] * 7919 + 13 if rng_seed is None else rng_seed)
-        p = params
+        p, T = params, self.T
         self.t = 0
         self.pop = float(p["start_pop"])
         self.gold = p["start_gold"]
         self.debt = 0.0
         self.stock = {"food": 30.0, "wood": 45.0, "ore": 0.0}
-        self.b = {"farm": 2, "lumberyard": 1, "mine": 1, "house": 3, "school": 0, "levee": 0}
+        self.tiles = {}
+        self.roads = set()
+        self.b = {k: 0 for k in BUILDINGS}
         self.queue = []
-        self.work = {"farm": 0, "lumberyard": 0, "mine": 0}
-        self.fert = 1.0
-        self.reserve = p["ore_reserve"]
+        self.work = {k: 0 for k in WORK}
+        self.tfert = dict(T.fert0)
+        self.tore = dict(T.ore0)
         self.edu = 1.0
         self.happy = 0.7
         self.tax = 0.2
@@ -100,24 +105,42 @@ class World:
         self.done = False
         self.outcome = "running"
         self.log = []
+        self._cost = None
+        for kind, n in (("farm", 3), ("lumberyard", 1), ("mine", 1), ("house", 3)):
+            for t in self.sites(kind, n):
+                self.tiles[t] = kind
+                self.b[kind] += 1
         self.assign_default()
 
     def clone(self, rng_seed):
         w = World.__new__(World)
-        w.p = self.p
+        w.p, w.T = self.p, self.T
         w.rng = random.Random(rng_seed)
-        for k in ("t", "pop", "gold", "debt", "fert", "reserve", "edu", "happy", "tax", "tax_cap",
-                  "tariff", "drought", "war", "low_happy", "income_last", "done", "outcome"):
+        for k in ("t", "pop", "gold", "debt", "edu", "happy", "tax", "tax_cap", "tariff", "drought", "war",
+                  "low_happy", "income_last", "done", "outcome", "_cost"):
             setattr(w, k, getattr(self, k))
         w.stock = dict(self.stock)
+        w.tiles = dict(self.tiles)
+        w.roads = set(self.roads)
         w.b = dict(self.b)
-        w.queue = list(self.queue)
+        w.queue = [list(q) for q in self.queue]
         w.work = dict(self.work)
+        w.tfert = dict(self.tfert)
+        w.tore = dict(self.tore)
         w.ref = dict(self.ref)
         w.shock = dict(self.shock)
         w.hist = {g: list(v) for g, v in self.hist.items()}
         w.log = []
         return w
+
+    def cost(self):
+        if self._cost is None:
+            self._cost = self.T.dijkstra(self.roads)
+        return self._cost[0]
+
+    def deliver(self, t):
+        c = self.cost().get(t, INF)
+        return 0.0 if c == INF else max(0.2, 1 - self.p["transport"] * c)
 
     def season(self, g, t):
         p = self.p
@@ -147,16 +170,73 @@ class World:
     def credit_limit(self):
         return 120 + 6 * self.income_last
 
-    def prot(self):
-        return 1 - math.exp(-0.45 * self.b["levee"])
+    def protection(self, t):
+        n = sum(1 for q, k in self.tiles.items() if k == "levee" and abs(q[0] - t[0]) + abs(q[1] - t[1]) <= LEVEE_RADIUS)
+        return min(1.0, 0.5 * n)
 
     def net_worth(self):
-        stock_val = sum(self.stock[g] * self.p["base_price"][g] for g in GOODS)
-        return self.gold - self.debt + stock_val
+        return self.gold - self.debt + sum(self.stock[g] * self.p["base_price"][g] for g in GOODS)
 
     def score(self):
         s = self.net_worth() + 8 * self.pop * (0.5 + 0.5 * self.happy)
         return s - 500 if self.outcome in ("collapse", "bankrupt") else s
+
+    def reserve(self):
+        return sum(self.tore[t] for t, k in self.tiles.items() if k == "mine")
+
+    def unit(self, t, kind, farm_mult=1.0):
+        y = self.p["yield_"][kind] * self.edu * self.deliver(t)
+        if kind == "farm":
+            return y * self.tfert[t] * farm_mult
+        if kind == "lumberyard":
+            return y * (0.5 + self.T.forest[t])
+        return y
+
+    def ranked(self, kind, farm_mult=1.0):
+        ts = [t for t, k in self.tiles.items() if k == kind]
+        return sorted(ts, key=lambda t: -self.unit(t, kind, farm_mult))
+
+    def fert(self):
+        fs = [self.tfert[t] for t, k in self.tiles.items() if k == "farm"]
+        return sum(fs) / len(fs) if fs else 0.0
+
+    def workers_for_food(self, need):
+        got, n = 0.0, 0
+        for t in self.ranked("farm"):
+            for _ in range(5):
+                if got >= need:
+                    return n
+                got += self.unit(t, "farm")
+                n += 1
+        return n
+
+    def sites(self, kind, k):
+        T = self.T
+        cost = self.cost()
+        free = [t for t in T.h if T.buildable(t) and t not in self.tiles and cost.get(t, INF) < INF
+                and not any(q[2] == t for q in self.queue)]
+        if kind == "farm":
+            f = lambda t: T.fert0[t] * self.deliver(t) * (1 - 0.6 * T.risk[t])
+        elif kind == "lumberyard":
+            f = lambda t: (0.5 + T.forest[t]) * self.deliver(t) * (1 - 0.3 * T.risk[t])
+        elif kind == "mine":
+            free = [t for t in free if self.tore[t] > 5]
+            f = lambda t: self.tore[t] * self.deliver(t)
+        elif kind in ("house", "school"):
+            f = lambda t: self.deliver(t) * (1 - T.risk[t]) - 0.01 * cost.get(t, 0)
+        else:
+            f = lambda t: sum(T.risk[q] for q in self.tiles
+                              if abs(q[0] - t[0]) + abs(q[1] - t[1]) <= LEVEE_RADIUS) * (1 - self.protection(t))
+        return sorted(free, key=lambda t: -f(t))[:k]
+
+    def road_routes(self, target, bridge_ok):
+        dist, par = self.T.dijkstra(self.roads, bridge_ok)
+        path, cur = [], target
+        while cur in par:
+            if cur not in self.roads and cur != self.T.town:
+                path.append(cur)
+            cur = par[cur]
+        return path
 
     def assign_default(self):
         free = self.workers()
@@ -165,22 +245,36 @@ class World:
             self.work[k] = n
             free -= n
 
-    def eff_work(self, kind):
-        return min(self.work[kind], self.slots(kind))
-
-    def act_build(self, kind, n):
-        if kind not in BUILDINGS or n < 1:
-            return "invalid build"
-        c = BUILDINGS[kind]
-        g, w = c["gold"] * n, c["wood"] * n
-        if self.gold < g:
-            return "not enough gold (need %.0f)" % g
-        if self.stock["wood"] < w:
-            return "not enough wood (need %.0f)" % w
-        self.gold -= g
-        self.stock["wood"] -= w
-        self.queue.append([kind, n, c["time"]])
-        return "queued %d %s, ready in %d turns" % (n, kind, c["time"])
+    def act_build(self, kind, x, y, **_):
+        t = (int(x), int(y))
+        T = self.T
+        if kind not in BUILDINGS or kind == "bridge":
+            return "invalid building"
+        if t not in T.h or t in T.water or t == T.town:
+            return "cannot build at (%d,%d)" % t
+        if t in self.tiles or any(q[2] == t for q in self.queue):
+            return "(%d,%d) is occupied" % t
+        place = kind
+        if t in T.river:
+            if kind != "road":
+                return "only a road (bridge) can go on a river tile"
+            if t in T.ford and t not in self.roads:
+                place = "road"
+            else:
+                place = "bridge"
+        if kind == "mine" and self.tore[t] <= 5:
+            return "no ore at (%d,%d)" % t
+        if kind == "road" and t in self.roads:
+            return "already a road"
+        c = BUILDINGS[place]
+        if self.gold < c["gold"]:
+            return "not enough gold (need %.0f)" % c["gold"]
+        if self.stock["wood"] < c["wood"]:
+            return "not enough wood (need %.0f)" % c["wood"]
+        self.gold -= c["gold"]
+        self.stock["wood"] -= c["wood"]
+        self.queue.append([place, 1, c["time"], t])
+        return "queued %s at (%d,%d), ready in %d turns" % (place, t[0], t[1], c["time"])
 
     def act_assign(self, farm=None, lumberyard=None, mine=None):
         new = dict(self.work)
@@ -244,17 +338,23 @@ class World:
         return "repaid %.0f" % amount
 
     def end_turn(self):
-        p = self.p
+        p, T = self.p, self.T
         r = self.rng
         self.t += 1
         events = []
 
         left = []
-        for kind, n, rem in self.queue:
+        for q in self.queue:
+            kind, n, rem, t = q
             if rem <= 1:
-                self.b[kind] += n
+                if kind in ("road", "bridge"):
+                    self.roads.add(t)
+                    self._cost = None
+                else:
+                    self.tiles[t] = kind
+                    self.b[kind] += 1
             else:
-                left.append([kind, n, rem - 1])
+                left.append([kind, n, rem - 1, t])
         self.queue = left
 
         for k in WORK:
@@ -265,25 +365,32 @@ class World:
             for k in WORK:
                 self.work[k] = int(self.work[k] * scale)
 
-        farm_mult = 1.0
+        farm_mult = 0.45 if self.drought > 0 else 1.0
         if self.drought > 0:
-            farm_mult = 0.45
             self.drought -= 1
-        out = {}
-        for k in WORK:
-            n = self.eff_work(k)
-            o = n * p["yield_"][k] * self.edu
+        out = {"food": 0.0, "wood": 0.0, "ore": 0.0}
+        staffed = set()
+        for kind in WORK:
+            left_w = self.work[kind]
+            for t in self.ranked(kind, farm_mult):
+                if left_w <= 0:
+                    break
+                n = min(5, left_w)
+                left_w -= n
+                o = n * self.unit(t, kind, farm_mult)
+                if kind == "mine":
+                    o = min(o, self.tore[t] * self.deliver(t))
+                    self.tore[t] -= o / max(self.deliver(t), 1e-6)
+                if kind == "farm":
+                    staffed.add(t)
+                out[PRODUCES[kind]] += o
+        for g in GOODS:
+            self.stock[g] += out[g]
+        for t, k in self.tiles.items():
             if k == "farm":
-                o *= self.fert * farm_mult
-            if k == "mine":
-                o = min(o, self.reserve)
-                self.reserve -= o
-            out[PRODUCES[k]] = o
-            self.stock[PRODUCES[k]] += o
-
-        use = self.eff_work("farm") / max(self.slots("farm"), 1)
-        self.fert += p["fert_recover"] * (1 - self.fert) - p["fert_decay"] * use * self.fert
-        self.fert = min(max(self.fert, 0.15), 1.0)
+                use = 1.0 if t in staffed else 0.0
+                self.tfert[t] += p["fert_recover"] * (T.fert0[t] - self.tfert[t]) - p["fert_decay"] * use * self.tfert[t]
+                self.tfert[t] = min(max(self.tfert[t], 0.1), T.fert0[t])
 
         need = self.pop * p["food_per_pop"]
         starving = 0.0
@@ -297,7 +404,7 @@ class World:
 
         compliance = 0.5 + 0.5 * self.happy
         income = self.pop * p["wage"] * self.tax * compliance
-        upkeep = sum(self.b[k] * BUILDINGS[k]["upkeep"] for k in BUILDINGS)
+        upkeep = sum(self.b[k] * BUILDINGS[k]["upkeep"] for k in BUILDINGS if k not in ("road", "bridge")) + 0.1 * len(self.roads)
         self.gold += income - upkeep
         self.income_last = income
         if self.gold < 0:
@@ -305,7 +412,7 @@ class World:
             self.gold = 0.0
         self.debt *= 1 + p["interest"]
 
-        target_h = 0.85 - 0.9 * starving * 2 - 1.6 * max(self.tax - 0.18, 0) \
+        target_h = 0.85 - 1.8 * starving - 1.6 * max(self.tax - 0.18, 0) \
             - (0.15 if self.drought > 0 else 0) - (0.1 if self.war > 0 else 0)
         if self.stock["food"] > need * 3:
             target_h += 0.05
@@ -319,8 +426,7 @@ class World:
             events.append("riot")
 
         if starving == 0 and self.pop < self.housing():
-            growth = p["pop_growth"] * self.pop * (1 - self.pop / self.housing()) * (0.5 + self.happy)
-            self.pop += growth
+            self.pop += p["pop_growth"] * self.pop * (1 - self.pop / self.housing()) * (0.5 + self.happy)
         elif self.pop > self.housing():
             self.pop -= 0.05 * (self.pop - self.housing())
 
@@ -331,13 +437,18 @@ class World:
             self.drought = r.randint(3, 5)
             events.append("drought")
         if r.random() < p["p_flood"]:
-            prot = self.prot()
-            self.stock["food"] *= 1 - 0.5 * (1 - prot)
-            if r.random() < 0.6 * (1 - prot):
-                kind = r.choice(["farm", "house", "lumberyard", "mine"])
-                if self.b[kind] > 0:
-                    self.b[kind] -= 1
-            events.append("flood")
+            mag = r.uniform(0.3, 1.0)
+            lost = []
+            for t, k in list(self.tiles.items()):
+                if T.risk[t] * mag > 0.25 and r.random() < 0.7 * (1 - self.protection(t)):
+                    del self.tiles[t]
+                    self.b[k] -= 1
+                    lost.append(k)
+            for t in [q for q in self.roads if T.risk[q] * mag > 0.4 and r.random() < 0.4]:
+                self.roads.discard(t)
+                self._cost = None
+            self.stock["food"] *= 1 - 0.3 * mag * (1 - 0.5 * min(1.0, self.b["levee"] * 0.3))
+            events.append("flood (lost %d buildings)" % len(lost))
         if r.random() < p["p_plague"]:
             self.pop *= 1 - r.uniform(0.08, 0.18)
             events.append("plague")

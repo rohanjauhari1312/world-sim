@@ -1,0 +1,4010 @@
+{
+ "cruise": [
+  {
+   "seed": 20000,
+   "score": 418.1,
+   "outcome": "survived",
+   "pop": 18,
+   "gold": 8,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20001,
+   "score": -300.1,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 37,
+   "turns": 81,
+   "roads": 0
+  },
+  {
+   "seed": 20002,
+   "score": 3165.2,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 2489,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20003,
+   "score": 603.9,
+   "outcome": "survived",
+   "pop": 21,
+   "gold": 287,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20004,
+   "score": 236.4,
+   "outcome": "survived",
+   "pop": 4,
+   "gold": 0,
+   "debt": 27,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20005,
+   "score": -345.1,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 83,
+   "turns": 56,
+   "roads": 0
+  },
+  {
+   "seed": 20006,
+   "score": 1398.7,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 674,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20007,
+   "score": 367.8,
+   "outcome": "survived",
+   "pop": 13,
+   "gold": 0,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20008,
+   "score": 425.8,
+   "outcome": "survived",
+   "pop": 26,
+   "gold": 16,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20009,
+   "score": 1737.8,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 995,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20010,
+   "score": -270.5,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 5,
+   "debt": 0,
+   "turns": 58,
+   "roads": 0
+  },
+  {
+   "seed": 20011,
+   "score": -331.8,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 75,
+   "turns": 53,
+   "roads": 0
+  },
+  {
+   "seed": 20012,
+   "score": 4121.2,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 3562,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20013,
+   "score": -280.4,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 0,
+   "turns": 96,
+   "roads": 0
+  },
+  {
+   "seed": 20014,
+   "score": 1787.7,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 1095,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20015,
+   "score": 1482.0,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 680,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20016,
+   "score": 1872.0,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 1277,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20017,
+   "score": 455.0,
+   "outcome": "survived",
+   "pop": 18,
+   "gold": 238,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20018,
+   "score": 494.0,
+   "outcome": "survived",
+   "pop": 14,
+   "gold": 178,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20019,
+   "score": 90.0,
+   "outcome": "survived",
+   "pop": 3,
+   "gold": 0,
+   "debt": 88,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20020,
+   "score": -239.7,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 19,
+   "turns": 82,
+   "roads": 0
+  },
+  {
+   "seed": 20021,
+   "score": 2666.6,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 2044,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20022,
+   "score": 1414.8,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 729,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20023,
+   "score": -324.0,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 1,
+   "turns": 73,
+   "roads": 0
+  },
+  {
+   "seed": 20024,
+   "score": -254.4,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 20,
+   "turns": 83,
+   "roads": 0
+  },
+  {
+   "seed": 20025,
+   "score": 611.9,
+   "outcome": "survived",
+   "pop": 20,
+   "gold": 349,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20026,
+   "score": 1010.4,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 239,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20027,
+   "score": 1943.1,
+   "outcome": "survived",
+   "pop": 32,
+   "gold": 1303,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20028,
+   "score": -265.4,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 62,
+   "turns": 77,
+   "roads": 0
+  },
+  {
+   "seed": 20029,
+   "score": 811.4,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 203,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20030,
+   "score": 1595.1,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 822,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20031,
+   "score": -482.5,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 172,
+   "turns": 98,
+   "roads": 0
+  },
+  {
+   "seed": 20032,
+   "score": 532.6,
+   "outcome": "survived",
+   "pop": 29,
+   "gold": 30,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20033,
+   "score": 1274.2,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 687,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20034,
+   "score": -280.5,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 63,
+   "turns": 64,
+   "roads": 0
+  },
+  {
+   "seed": 20035,
+   "score": 4679.3,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 4109,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20036,
+   "score": 1611.1,
+   "outcome": "survived",
+   "pop": 32,
+   "gold": 1082,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20037,
+   "score": -336.5,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 25,
+   "debt": 0,
+   "turns": 55,
+   "roads": 0
+  },
+  {
+   "seed": 20038,
+   "score": -336.7,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 94,
+   "turns": 63,
+   "roads": 0
+  },
+  {
+   "seed": 20039,
+   "score": 213.2,
+   "outcome": "survived",
+   "pop": 6,
+   "gold": 0,
+   "debt": 57,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20040,
+   "score": 3271.3,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 2578,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20041,
+   "score": -428.5,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 122,
+   "turns": 52,
+   "roads": 0
+  },
+  {
+   "seed": 20042,
+   "score": 684.2,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 79,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20043,
+   "score": 1438.9,
+   "outcome": "survived",
+   "pop": 29,
+   "gold": 918,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20044,
+   "score": 241.8,
+   "outcome": "survived",
+   "pop": 7,
+   "gold": 5,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20045,
+   "score": 168.3,
+   "outcome": "survived",
+   "pop": 3,
+   "gold": 0,
+   "debt": 9,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20046,
+   "score": 1832.6,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 1229,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20047,
+   "score": -427.5,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 143,
+   "turns": 92,
+   "roads": 0
+  },
+  {
+   "seed": 20048,
+   "score": 2101.3,
+   "outcome": "survived",
+   "pop": 33,
+   "gold": 1479,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20049,
+   "score": -260.0,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 29,
+   "debt": 0,
+   "turns": 60,
+   "roads": 0
+  },
+  {
+   "seed": 20050,
+   "score": 4476.9,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 3770,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20051,
+   "score": 2650.3,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 2044,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20052,
+   "score": 217.0,
+   "outcome": "survived",
+   "pop": 10,
+   "gold": 0,
+   "debt": 5,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20053,
+   "score": -404.5,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 52,
+   "turns": 88,
+   "roads": 0
+  },
+  {
+   "seed": 20054,
+   "score": -316.8,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 72,
+   "turns": 46,
+   "roads": 0
+  },
+  {
+   "seed": 20055,
+   "score": -364.4,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 89,
+   "turns": 62,
+   "roads": 0
+  },
+  {
+   "seed": 20056,
+   "score": 641.5,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 137,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20057,
+   "score": 1632.6,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 942,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20058,
+   "score": -396.7,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 40,
+   "turns": 48,
+   "roads": 0
+  },
+  {
+   "seed": 20059,
+   "score": 204.4,
+   "outcome": "survived",
+   "pop": 11,
+   "gold": 6,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20060,
+   "score": 326.0,
+   "outcome": "survived",
+   "pop": 9,
+   "gold": 13,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20061,
+   "score": 184.5,
+   "outcome": "survived",
+   "pop": 5,
+   "gold": 0,
+   "debt": 13,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20062,
+   "score": 3874.4,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 3159,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20063,
+   "score": -338.6,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 96,
+   "turns": 90,
+   "roads": 0
+  },
+  {
+   "seed": 20064,
+   "score": -340.1,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 129,
+   "turns": 90,
+   "roads": 0
+  },
+  {
+   "seed": 20065,
+   "score": 2109.8,
+   "outcome": "survived",
+   "pop": 33,
+   "gold": 1402,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20066,
+   "score": 929.5,
+   "outcome": "survived",
+   "pop": 32,
+   "gold": 383,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20067,
+   "score": 349.6,
+   "outcome": "survived",
+   "pop": 11,
+   "gold": 102,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20068,
+   "score": 2501.1,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 1824,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20069,
+   "score": 506.6,
+   "outcome": "survived",
+   "pop": 19,
+   "gold": 7,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20070,
+   "score": -410.6,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 102,
+   "turns": 83,
+   "roads": 0
+  },
+  {
+   "seed": 20071,
+   "score": 6414.5,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 5651,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20072,
+   "score": 1510.5,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 891,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20073,
+   "score": 381.7,
+   "outcome": "survived",
+   "pop": 16,
+   "gold": 173,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20074,
+   "score": -386.8,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 91,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20075,
+   "score": -447.8,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 101,
+   "turns": 88,
+   "roads": 0
+  },
+  {
+   "seed": 20076,
+   "score": -321.9,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 79,
+   "turns": 97,
+   "roads": 0
+  },
+  {
+   "seed": 20077,
+   "score": -379.0,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 55,
+   "turns": 89,
+   "roads": 0
+  },
+  {
+   "seed": 20078,
+   "score": 118.2,
+   "outcome": "survived",
+   "pop": 3,
+   "gold": 0,
+   "debt": 89,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20079,
+   "score": 1010.1,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 237,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20080,
+   "score": 252.7,
+   "outcome": "survived",
+   "pop": 8,
+   "gold": 2,
+   "debt": 1,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20081,
+   "score": 2756.5,
+   "outcome": "survived",
+   "pop": 29,
+   "gold": 2280,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20082,
+   "score": -434.0,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 80,
+   "turns": 97,
+   "roads": 0
+  },
+  {
+   "seed": 20083,
+   "score": 233.6,
+   "outcome": "survived",
+   "pop": 15,
+   "gold": 11,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20084,
+   "score": 2283.6,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1598,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20085,
+   "score": 449.5,
+   "outcome": "survived",
+   "pop": 23,
+   "gold": 174,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20086,
+   "score": 2782.0,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 1999,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20087,
+   "score": -278.4,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 58,
+   "turns": 91,
+   "roads": 0
+  },
+  {
+   "seed": 20088,
+   "score": 437.3,
+   "outcome": "survived",
+   "pop": 20,
+   "gold": 28,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20089,
+   "score": 1040.7,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 251,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20090,
+   "score": 1592.8,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 902,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20091,
+   "score": -414.1,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 131,
+   "turns": 72,
+   "roads": 0
+  },
+  {
+   "seed": 20092,
+   "score": 2207.9,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 1486,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20093,
+   "score": -360.9,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 76,
+   "turns": 65,
+   "roads": 0
+  },
+  {
+   "seed": 20094,
+   "score": 795.5,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 177,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20095,
+   "score": -312.8,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 7,
+   "turns": 59,
+   "roads": 0
+  },
+  {
+   "seed": 20096,
+   "score": 250.3,
+   "outcome": "survived",
+   "pop": 7,
+   "gold": 2,
+   "debt": 3,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20097,
+   "score": 364.5,
+   "outcome": "survived",
+   "pop": 23,
+   "gold": 15,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20098,
+   "score": 1837.9,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 1174,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20099,
+   "score": 1952.1,
+   "outcome": "survived",
+   "pop": 28,
+   "gold": 1480,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  }
+ ],
+ "greedy": [
+  {
+   "seed": 20000,
+   "score": 841.5,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 390,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20001,
+   "score": 162.1,
+   "outcome": "survived",
+   "pop": 6,
+   "gold": 0,
+   "debt": 17,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20002,
+   "score": 4288.9,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 3599,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20003,
+   "score": 554.5,
+   "outcome": "survived",
+   "pop": 16,
+   "gold": 302,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20004,
+   "score": 444.1,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 34,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20005,
+   "score": -259.5,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 1,
+   "turns": 49,
+   "roads": 3
+  },
+  {
+   "seed": 20006,
+   "score": 2033.1,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 1292,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20007,
+   "score": 779.8,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 198,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20008,
+   "score": 1292.1,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 726,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20009,
+   "score": 2724.3,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 2024,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20010,
+   "score": -336.0,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 121,
+   "turns": 69,
+   "roads": 4
+  },
+  {
+   "seed": 20011,
+   "score": -421.0,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 117,
+   "turns": 53,
+   "roads": 0
+  },
+  {
+   "seed": 20012,
+   "score": 5037.5,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 4473,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20013,
+   "score": 26.3,
+   "outcome": "survived",
+   "pop": 7,
+   "gold": 0,
+   "debt": 131,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20014,
+   "score": 1365.6,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 685,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20015,
+   "score": 873.5,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 153,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20016,
+   "score": 2906.2,
+   "outcome": "survived",
+   "pop": 41,
+   "gold": 2214,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20017,
+   "score": 482.0,
+   "outcome": "survived",
+   "pop": 29,
+   "gold": 79,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20018,
+   "score": 1629.8,
+   "outcome": "survived",
+   "pop": 41,
+   "gold": 1088,
+   "debt": 0,
+   "turns": 100,
+   "roads": 5
+  },
+  {
+   "seed": 20019,
+   "score": -592.7,
+   "outcome": "bankrupt",
+   "pop": 3,
+   "gold": 0,
+   "debt": 250,
+   "turns": 92,
+   "roads": 0
+  },
+  {
+   "seed": 20020,
+   "score": 549.0,
+   "outcome": "survived",
+   "pop": 23,
+   "gold": 236,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20021,
+   "score": 3447.3,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 2694,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20022,
+   "score": 1672.8,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 1029,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20023,
+   "score": -385.3,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 67,
+   "turns": 88,
+   "roads": 2
+  },
+  {
+   "seed": 20024,
+   "score": 213.6,
+   "outcome": "survived",
+   "pop": 5,
+   "gold": 0,
+   "debt": 68,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20025,
+   "score": 870.5,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 178,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20026,
+   "score": 2078.9,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 1405,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20027,
+   "score": 3642.4,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 2997,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20028,
+   "score": -255.7,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 50,
+   "turns": 78,
+   "roads": 1
+  },
+  {
+   "seed": 20029,
+   "score": 941.9,
+   "outcome": "survived",
+   "pop": 22,
+   "gold": 603,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20030,
+   "score": 2760.1,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 1980,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20031,
+   "score": 160.0,
+   "outcome": "survived",
+   "pop": 5,
+   "gold": 0,
+   "debt": 67,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20032,
+   "score": 894.5,
+   "outcome": "survived",
+   "pop": 27,
+   "gold": 389,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20033,
+   "score": 2023.2,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 1387,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20034,
+   "score": -561.3,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 240,
+   "turns": 77,
+   "roads": 2
+  },
+  {
+   "seed": 20035,
+   "score": 5254.7,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 4686,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20036,
+   "score": 2478.4,
+   "outcome": "survived",
+   "pop": 32,
+   "gold": 1908,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20037,
+   "score": -332.0,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 10,
+   "debt": 0,
+   "turns": 64,
+   "roads": 1
+  },
+  {
+   "seed": 20038,
+   "score": -710.8,
+   "outcome": "bankrupt",
+   "pop": 11,
+   "gold": 0,
+   "debt": 284,
+   "turns": 57,
+   "roads": 0
+  },
+  {
+   "seed": 20039,
+   "score": 905.5,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 488,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20040,
+   "score": 3751.4,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 3103,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20041,
+   "score": -449.2,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 135,
+   "turns": 52,
+   "roads": 0
+  },
+  {
+   "seed": 20042,
+   "score": 2289.2,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 1660,
+   "debt": 0,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20043,
+   "score": 2363.3,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 1736,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20044,
+   "score": 195.6,
+   "outcome": "survived",
+   "pop": 5,
+   "gold": 0,
+   "debt": 56,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20045,
+   "score": 332.5,
+   "outcome": "survived",
+   "pop": 27,
+   "gold": 62,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20046,
+   "score": 1167.1,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 608,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20047,
+   "score": -513.6,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 216,
+   "turns": 97,
+   "roads": 3
+  },
+  {
+   "seed": 20048,
+   "score": 2815.6,
+   "outcome": "survived",
+   "pop": 33,
+   "gold": 2278,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20049,
+   "score": -483.2,
+   "outcome": "bankrupt",
+   "pop": 5,
+   "gold": 0,
+   "debt": 272,
+   "turns": 81,
+   "roads": 2
+  },
+  {
+   "seed": 20050,
+   "score": 5980.8,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 5406,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20051,
+   "score": 3752.4,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 3179,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20052,
+   "score": 1595.6,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 928,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20053,
+   "score": -598.3,
+   "outcome": "bankrupt",
+   "pop": 8,
+   "gold": 0,
+   "debt": 264,
+   "turns": 75,
+   "roads": 2
+  },
+  {
+   "seed": 20054,
+   "score": -317.2,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 54,
+   "turns": 48,
+   "roads": 1
+  },
+  {
+   "seed": 20055,
+   "score": -688.2,
+   "outcome": "bankrupt",
+   "pop": 4,
+   "gold": 0,
+   "debt": 242,
+   "turns": 58,
+   "roads": 5
+  },
+  {
+   "seed": 20056,
+   "score": 494.2,
+   "outcome": "survived",
+   "pop": 24,
+   "gold": 252,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20057,
+   "score": 3520.8,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 2884,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20058,
+   "score": -708.8,
+   "outcome": "bankrupt",
+   "pop": 3,
+   "gold": 0,
+   "debt": 246,
+   "turns": 51,
+   "roads": 7
+  },
+  {
+   "seed": 20059,
+   "score": 357.4,
+   "outcome": "survived",
+   "pop": 12,
+   "gold": 157,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20060,
+   "score": 489.6,
+   "outcome": "survived",
+   "pop": 21,
+   "gold": 147,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20061,
+   "score": 823.1,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 253,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20062,
+   "score": 4692.4,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 4054,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20063,
+   "score": -266.2,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 9,
+   "turns": 98,
+   "roads": 0
+  },
+  {
+   "seed": 20064,
+   "score": -426.0,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 212,
+   "turns": 99,
+   "roads": 0
+  },
+  {
+   "seed": 20065,
+   "score": 1587.5,
+   "outcome": "survived",
+   "pop": 32,
+   "gold": 936,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20066,
+   "score": 1782.0,
+   "outcome": "survived",
+   "pop": 31,
+   "gold": 1266,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20067,
+   "score": 1293.4,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 491,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20068,
+   "score": 3608.1,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 3028,
+   "debt": 0,
+   "turns": 100,
+   "roads": 7
+  },
+  {
+   "seed": 20069,
+   "score": 715.8,
+   "outcome": "survived",
+   "pop": 23,
+   "gold": 418,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20070,
+   "score": 177.9,
+   "outcome": "survived",
+   "pop": 8,
+   "gold": 0,
+   "debt": 8,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20071,
+   "score": 8283.0,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 7481,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20072,
+   "score": 1406.3,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 849,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20073,
+   "score": 726.1,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 196,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20074,
+   "score": 123.4,
+   "outcome": "survived",
+   "pop": 5,
+   "gold": 0,
+   "debt": 60,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20075,
+   "score": -703.9,
+   "outcome": "bankrupt",
+   "pop": 4,
+   "gold": 0,
+   "debt": 252,
+   "turns": 86,
+   "roads": 1
+  },
+  {
+   "seed": 20076,
+   "score": 265.3,
+   "outcome": "survived",
+   "pop": 6,
+   "gold": 0,
+   "debt": 35,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20077,
+   "score": -364.2,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 12,
+   "turns": 91,
+   "roads": 0
+  },
+  {
+   "seed": 20078,
+   "score": 234.3,
+   "outcome": "survived",
+   "pop": 11,
+   "gold": 0,
+   "debt": 68,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20079,
+   "score": 2022.3,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1199,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20080,
+   "score": 2415.0,
+   "outcome": "survived",
+   "pop": 42,
+   "gold": 1629,
+   "debt": 0,
+   "turns": 100,
+   "roads": 8
+  },
+  {
+   "seed": 20081,
+   "score": 3089.9,
+   "outcome": "survived",
+   "pop": 33,
+   "gold": 2571,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20082,
+   "score": -53.0,
+   "outcome": "survived",
+   "pop": 4,
+   "gold": 0,
+   "debt": 203,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20083,
+   "score": 1168.6,
+   "outcome": "survived",
+   "pop": 29,
+   "gold": 676,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20084,
+   "score": 3178.0,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 2509,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20085,
+   "score": 1425.3,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 834,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20086,
+   "score": 4187.5,
+   "outcome": "survived",
+   "pop": 43,
+   "gold": 3475,
+   "debt": 0,
+   "turns": 100,
+   "roads": 7
+  },
+  {
+   "seed": 20087,
+   "score": -288.8,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 74,
+   "turns": 91,
+   "roads": 0
+  },
+  {
+   "seed": 20088,
+   "score": 849.8,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 311,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20089,
+   "score": 1856.4,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 1112,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20090,
+   "score": 2711.2,
+   "outcome": "survived",
+   "pop": 41,
+   "gold": 1991,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20091,
+   "score": 1475.6,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 1026,
+   "debt": 0,
+   "turns": 100,
+   "roads": 5
+  },
+  {
+   "seed": 20092,
+   "score": 3759.3,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 3106,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20093,
+   "score": -495.5,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 124,
+   "turns": 61,
+   "roads": 2
+  },
+  {
+   "seed": 20094,
+   "score": 1969.8,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 1386,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20095,
+   "score": -380.8,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 44,
+   "turns": 68,
+   "roads": 3
+  },
+  {
+   "seed": 20096,
+   "score": -419.3,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 118,
+   "turns": 95,
+   "roads": 0
+  },
+  {
+   "seed": 20097,
+   "score": 557.6,
+   "outcome": "survived",
+   "pop": 32,
+   "gold": 23,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20098,
+   "score": 2669.5,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 1957,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20099,
+   "score": 2954.0,
+   "outcome": "survived",
+   "pop": 27,
+   "gold": 2520,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  }
+ ],
+ "lookahead10": [
+  {
+   "seed": 20000,
+   "score": 2109.1,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1539,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20001,
+   "score": 802.5,
+   "outcome": "survived",
+   "pop": 43,
+   "gold": 562,
+   "debt": 0,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20002,
+   "score": 5229.4,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 4477,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20003,
+   "score": 1308.5,
+   "outcome": "survived",
+   "pop": 48,
+   "gold": 602,
+   "debt": 0,
+   "turns": 100,
+   "roads": 5
+  },
+  {
+   "seed": 20004,
+   "score": 1424.3,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 754,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20005,
+   "score": -713.6,
+   "outcome": "bankrupt",
+   "pop": 5,
+   "gold": 0,
+   "debt": 249,
+   "turns": 81,
+   "roads": 20
+  },
+  {
+   "seed": 20006,
+   "score": 3325.1,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 2644,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20007,
+   "score": 576.7,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 284,
+   "debt": 0,
+   "turns": 100,
+   "roads": 9
+  },
+  {
+   "seed": 20008,
+   "score": 1321.2,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 702,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20009,
+   "score": 3912.2,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 3426,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20010,
+   "score": 369.9,
+   "outcome": "survived",
+   "pop": 18,
+   "gold": 255,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20011,
+   "score": -605.3,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 195,
+   "turns": 66,
+   "roads": 1
+  },
+  {
+   "seed": 20012,
+   "score": 5411.6,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 4636,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20013,
+   "score": -604.7,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 141,
+   "turns": 87,
+   "roads": 0
+  },
+  {
+   "seed": 20014,
+   "score": 3154.7,
+   "outcome": "survived",
+   "pop": 44,
+   "gold": 2415,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20015,
+   "score": 659.2,
+   "outcome": "survived",
+   "pop": 32,
+   "gold": 400,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20016,
+   "score": 2969.7,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 2432,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20017,
+   "score": 2283.9,
+   "outcome": "survived",
+   "pop": 33,
+   "gold": 1746,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20018,
+   "score": 3416.4,
+   "outcome": "survived",
+   "pop": 124,
+   "gold": 2376,
+   "debt": 0,
+   "turns": 100,
+   "roads": 11
+  },
+  {
+   "seed": 20019,
+   "score": 43.1,
+   "outcome": "survived",
+   "pop": 8,
+   "gold": 0,
+   "debt": 91,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20020,
+   "score": 1203.5,
+   "outcome": "survived",
+   "pop": 43,
+   "gold": 692,
+   "debt": 0,
+   "turns": 100,
+   "roads": 10
+  },
+  {
+   "seed": 20021,
+   "score": 5381.8,
+   "outcome": "survived",
+   "pop": 42,
+   "gold": 4540,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20022,
+   "score": 3791.4,
+   "outcome": "survived",
+   "pop": 28,
+   "gold": 3280,
+   "debt": 0,
+   "turns": 100,
+   "roads": 12
+  },
+  {
+   "seed": 20023,
+   "score": 1736.9,
+   "outcome": "survived",
+   "pop": 40,
+   "gold": 1249,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20024,
+   "score": 394.0,
+   "outcome": "survived",
+   "pop": 26,
+   "gold": 122,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20025,
+   "score": 1962.6,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 1266,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20026,
+   "score": 2714.9,
+   "outcome": "survived",
+   "pop": 44,
+   "gold": 1971,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20027,
+   "score": 3510.6,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 2963,
+   "debt": 0,
+   "turns": 100,
+   "roads": 5
+  },
+  {
+   "seed": 20028,
+   "score": -699.6,
+   "outcome": "bankrupt",
+   "pop": 8,
+   "gold": 0,
+   "debt": 255,
+   "turns": 97,
+   "roads": 2
+  },
+  {
+   "seed": 20029,
+   "score": 1010.2,
+   "outcome": "survived",
+   "pop": 71,
+   "gold": 341,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20030,
+   "score": 3315.2,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 2552,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20031,
+   "score": 261.5,
+   "outcome": "survived",
+   "pop": 19,
+   "gold": 166,
+   "debt": 0,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20032,
+   "score": 2452.5,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1828,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20033,
+   "score": 3138.6,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 2549,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20034,
+   "score": 72.0,
+   "outcome": "survived",
+   "pop": 16,
+   "gold": 0,
+   "debt": 29,
+   "turns": 100,
+   "roads": 9
+  },
+  {
+   "seed": 20035,
+   "score": 5651.7,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 5017,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20036,
+   "score": 2621.9,
+   "outcome": "survived",
+   "pop": 32,
+   "gold": 2076,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20037,
+   "score": -739.2,
+   "outcome": "bankrupt",
+   "pop": 4,
+   "gold": 0,
+   "debt": 268,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20038,
+   "score": -582.0,
+   "outcome": "bankrupt",
+   "pop": 8,
+   "gold": 0,
+   "debt": 268,
+   "turns": 73,
+   "roads": 4
+  },
+  {
+   "seed": 20039,
+   "score": 1534.0,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 850,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20040,
+   "score": 6945.6,
+   "outcome": "survived",
+   "pop": 33,
+   "gold": 6154,
+   "debt": 0,
+   "turns": 100,
+   "roads": 7
+  },
+  {
+   "seed": 20041,
+   "score": -382.4,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 130,
+   "turns": 56,
+   "roads": 0
+  },
+  {
+   "seed": 20042,
+   "score": 2697.5,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 2087,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20043,
+   "score": 4842.9,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 4171,
+   "debt": 0,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20044,
+   "score": 2642.5,
+   "outcome": "survived",
+   "pop": 65,
+   "gold": 1436,
+   "debt": 0,
+   "turns": 100,
+   "roads": 9
+  },
+  {
+   "seed": 20045,
+   "score": 2403.2,
+   "outcome": "survived",
+   "pop": 44,
+   "gold": 1704,
+   "debt": 0,
+   "turns": 100,
+   "roads": 10
+  },
+  {
+   "seed": 20046,
+   "score": 3735.7,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 3107,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20047,
+   "score": 177.8,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 0,
+   "debt": 33,
+   "turns": 100,
+   "roads": 9
+  },
+  {
+   "seed": 20048,
+   "score": 3944.3,
+   "outcome": "survived",
+   "pop": 33,
+   "gold": 3298,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20049,
+   "score": -582.9,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 122,
+   "turns": 91,
+   "roads": 0
+  },
+  {
+   "seed": 20050,
+   "score": 6267.6,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 5629,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20051,
+   "score": 3753.0,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 3221,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20052,
+   "score": 2812.0,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 2220,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20053,
+   "score": -713.3,
+   "outcome": "bankrupt",
+   "pop": 7,
+   "gold": 0,
+   "debt": 251,
+   "turns": 80,
+   "roads": 9
+  },
+  {
+   "seed": 20054,
+   "score": -484.9,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 189,
+   "turns": 56,
+   "roads": 1
+  },
+  {
+   "seed": 20055,
+   "score": -722.0,
+   "outcome": "bankrupt",
+   "pop": 6,
+   "gold": 0,
+   "debt": 252,
+   "turns": 96,
+   "roads": 9
+  },
+  {
+   "seed": 20056,
+   "score": 2269.2,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1640,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20057,
+   "score": 5544.4,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 4832,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20058,
+   "score": -637.4,
+   "outcome": "bankrupt",
+   "pop": 5,
+   "gold": 0,
+   "debt": 269,
+   "turns": 47,
+   "roads": 9
+  },
+  {
+   "seed": 20059,
+   "score": 756.5,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 519,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20060,
+   "score": 476.5,
+   "outcome": "survived",
+   "pop": 26,
+   "gold": 309,
+   "debt": 0,
+   "turns": 100,
+   "roads": 11
+  },
+  {
+   "seed": 20061,
+   "score": 971.9,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 354,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20062,
+   "score": 5490.3,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 4642,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20063,
+   "score": 1043.5,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 493,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20064,
+   "score": 161.2,
+   "outcome": "survived",
+   "pop": 23,
+   "gold": 16,
+   "debt": 3,
+   "turns": 100,
+   "roads": 5
+  },
+  {
+   "seed": 20065,
+   "score": 3012.5,
+   "outcome": "survived",
+   "pop": 33,
+   "gold": 2404,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20066,
+   "score": 1845.0,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1255,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20067,
+   "score": 2528.1,
+   "outcome": "survived",
+   "pop": 84,
+   "gold": 1302,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20068,
+   "score": 7092.3,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 6429,
+   "debt": 0,
+   "turns": 100,
+   "roads": 12
+  },
+  {
+   "seed": 20069,
+   "score": 462.2,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 165,
+   "debt": 0,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20070,
+   "score": -635.3,
+   "outcome": "bankrupt",
+   "pop": 22,
+   "gold": 0,
+   "debt": 309,
+   "turns": 93,
+   "roads": 1
+  },
+  {
+   "seed": 20071,
+   "score": 8331.9,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 7579,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20072,
+   "score": 3303.2,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 2641,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20073,
+   "score": 2455.8,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 1943,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20074,
+   "score": 1093.5,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 569,
+   "debt": 0,
+   "turns": 100,
+   "roads": 7
+  },
+  {
+   "seed": 20075,
+   "score": -710.9,
+   "outcome": "bankrupt",
+   "pop": 9,
+   "gold": 0,
+   "debt": 261,
+   "turns": 99,
+   "roads": 2
+  },
+  {
+   "seed": 20076,
+   "score": 554.7,
+   "outcome": "survived",
+   "pop": 27,
+   "gold": 368,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20077,
+   "score": 811.6,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 350,
+   "debt": 0,
+   "turns": 100,
+   "roads": 5
+  },
+  {
+   "seed": 20078,
+   "score": 345.1,
+   "outcome": "survived",
+   "pop": 28,
+   "gold": 44,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20079,
+   "score": 3076.7,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 2528,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20080,
+   "score": 1024.6,
+   "outcome": "survived",
+   "pop": 68,
+   "gold": 312,
+   "debt": 0,
+   "turns": 100,
+   "roads": 13
+  },
+  {
+   "seed": 20081,
+   "score": 3998.8,
+   "outcome": "survived",
+   "pop": 57,
+   "gold": 3332,
+   "debt": 0,
+   "turns": 100,
+   "roads": 9
+  },
+  {
+   "seed": 20082,
+   "score": -549.9,
+   "outcome": "bankrupt",
+   "pop": 3,
+   "gold": 0,
+   "debt": 239,
+   "turns": 94,
+   "roads": 2
+  },
+  {
+   "seed": 20083,
+   "score": 1503.0,
+   "outcome": "survived",
+   "pop": 29,
+   "gold": 1046,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20084,
+   "score": 3809.7,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 3106,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20085,
+   "score": 2920.8,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 2353,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20086,
+   "score": 5135.5,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 4374,
+   "debt": 0,
+   "turns": 100,
+   "roads": 9
+  },
+  {
+   "seed": 20087,
+   "score": 453.3,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 23,
+   "debt": 0,
+   "turns": 100,
+   "roads": 5
+  },
+  {
+   "seed": 20088,
+   "score": 2888.8,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 2293,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20089,
+   "score": 1926.9,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 1155,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20090,
+   "score": 2755.8,
+   "outcome": "survived",
+   "pop": 46,
+   "gold": 1938,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20091,
+   "score": 1958.8,
+   "outcome": "survived",
+   "pop": 61,
+   "gold": 1557,
+   "debt": 0,
+   "turns": 100,
+   "roads": 8
+  },
+  {
+   "seed": 20092,
+   "score": 4911.3,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 4333,
+   "debt": 0,
+   "turns": 100,
+   "roads": 8
+  },
+  {
+   "seed": 20093,
+   "score": -543.0,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 256,
+   "turns": 72,
+   "roads": 4
+  },
+  {
+   "seed": 20094,
+   "score": 2755.6,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 2160,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20095,
+   "score": -663.7,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 178,
+   "turns": 89,
+   "roads": 5
+  },
+  {
+   "seed": 20096,
+   "score": 893.0,
+   "outcome": "survived",
+   "pop": 49,
+   "gold": 629,
+   "debt": 0,
+   "turns": 100,
+   "roads": 7
+  },
+  {
+   "seed": 20097,
+   "score": 72.3,
+   "outcome": "survived",
+   "pop": 17,
+   "gold": 0,
+   "debt": 22,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20098,
+   "score": 2669.5,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 1957,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20099,
+   "score": 3905.9,
+   "outcome": "survived",
+   "pop": 28,
+   "gold": 3456,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  }
+ ],
+ "lookahead40": [
+  {
+   "seed": 20000,
+   "score": 2486.6,
+   "outcome": "survived",
+   "pop": 47,
+   "gold": 1919,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20001,
+   "score": 270.1,
+   "outcome": "survived",
+   "pop": 12,
+   "gold": 185,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20002,
+   "score": 5070.4,
+   "outcome": "survived",
+   "pop": 45,
+   "gold": 4102,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20003,
+   "score": 618.7,
+   "outcome": "survived",
+   "pop": 27,
+   "gold": 468,
+   "debt": 0,
+   "turns": 100,
+   "roads": 9
+  },
+  {
+   "seed": 20004,
+   "score": 1680.1,
+   "outcome": "survived",
+   "pop": 32,
+   "gold": 1159,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20005,
+   "score": 8.2,
+   "outcome": "survived",
+   "pop": 8,
+   "gold": 0,
+   "debt": 41,
+   "turns": 100,
+   "roads": 21
+  },
+  {
+   "seed": 20006,
+   "score": 2787.9,
+   "outcome": "survived",
+   "pop": 40,
+   "gold": 2041,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20007,
+   "score": 142.8,
+   "outcome": "survived",
+   "pop": 21,
+   "gold": 0,
+   "debt": 19,
+   "turns": 100,
+   "roads": 7
+  },
+  {
+   "seed": 20008,
+   "score": 1143.3,
+   "outcome": "survived",
+   "pop": 42,
+   "gold": 452,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20009,
+   "score": 2493.7,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 1864,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20010,
+   "score": 166.4,
+   "outcome": "survived",
+   "pop": 23,
+   "gold": 42,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20011,
+   "score": -326.3,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 74,
+   "turns": 85,
+   "roads": 1
+  },
+  {
+   "seed": 20012,
+   "score": 5088.3,
+   "outcome": "survived",
+   "pop": 41,
+   "gold": 4383,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20013,
+   "score": 552.6,
+   "outcome": "survived",
+   "pop": 26,
+   "gold": 310,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20014,
+   "score": 2508.0,
+   "outcome": "survived",
+   "pop": 70,
+   "gold": 1648,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20015,
+   "score": 719.8,
+   "outcome": "survived",
+   "pop": 28,
+   "gold": 241,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20016,
+   "score": 2969.7,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 2432,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20017,
+   "score": 2136.2,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 1659,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20018,
+   "score": 1508.6,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 694,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20019,
+   "score": -698.8,
+   "outcome": "bankrupt",
+   "pop": 9,
+   "gold": 0,
+   "debt": 258,
+   "turns": 95,
+   "roads": 1
+  },
+  {
+   "seed": 20020,
+   "score": 1419.2,
+   "outcome": "survived",
+   "pop": 55,
+   "gold": 402,
+   "debt": 0,
+   "turns": 100,
+   "roads": 10
+  },
+  {
+   "seed": 20021,
+   "score": 4694.5,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 4208,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20022,
+   "score": 5188.5,
+   "outcome": "survived",
+   "pop": 66,
+   "gold": 4043,
+   "debt": 0,
+   "turns": 100,
+   "roads": 12
+  },
+  {
+   "seed": 20023,
+   "score": 412.6,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 251,
+   "debt": 0,
+   "turns": 100,
+   "roads": 11
+  },
+  {
+   "seed": 20024,
+   "score": 2323.3,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1760,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20025,
+   "score": 2247.9,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1688,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20026,
+   "score": 3948.9,
+   "outcome": "survived",
+   "pop": 87,
+   "gold": 2363,
+   "debt": 0,
+   "turns": 100,
+   "roads": 7
+  },
+  {
+   "seed": 20027,
+   "score": 4207.2,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 3477,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20028,
+   "score": -727.4,
+   "outcome": "bankrupt",
+   "pop": 3,
+   "gold": 0,
+   "debt": 249,
+   "turns": 85,
+   "roads": 0
+  },
+  {
+   "seed": 20029,
+   "score": 2395.0,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1756,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20030,
+   "score": 2299.6,
+   "outcome": "survived",
+   "pop": 53,
+   "gold": 1634,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20031,
+   "score": 1528.0,
+   "outcome": "survived",
+   "pop": 46,
+   "gold": 846,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20032,
+   "score": 1888.4,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1244,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20033,
+   "score": 3263.4,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 2837,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20034,
+   "score": -720.9,
+   "outcome": "bankrupt",
+   "pop": 7,
+   "gold": 0,
+   "debt": 256,
+   "turns": 83,
+   "roads": 3
+  },
+  {
+   "seed": 20035,
+   "score": 5769.7,
+   "outcome": "survived",
+   "pop": 63,
+   "gold": 4941,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20036,
+   "score": 2567.6,
+   "outcome": "survived",
+   "pop": 32,
+   "gold": 1956,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20037,
+   "score": 262.4,
+   "outcome": "survived",
+   "pop": 11,
+   "gold": 192,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20038,
+   "score": -697.3,
+   "outcome": "bankrupt",
+   "pop": 15,
+   "gold": 0,
+   "debt": 292,
+   "turns": 80,
+   "roads": 7
+  },
+  {
+   "seed": 20039,
+   "score": 1801.9,
+   "outcome": "survived",
+   "pop": 43,
+   "gold": 994,
+   "debt": 0,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20040,
+   "score": 6896.6,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 6025,
+   "debt": 0,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20041,
+   "score": -371.7,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 93,
+   "turns": 51,
+   "roads": 0
+  },
+  {
+   "seed": 20042,
+   "score": 3005.2,
+   "outcome": "survived",
+   "pop": 43,
+   "gold": 2368,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20043,
+   "score": 5045.3,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 4377,
+   "debt": 0,
+   "turns": 100,
+   "roads": 7
+  },
+  {
+   "seed": 20044,
+   "score": 73.4,
+   "outcome": "survived",
+   "pop": 18,
+   "gold": 0,
+   "debt": 51,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20045,
+   "score": 1265.5,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 803,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20046,
+   "score": 3138.0,
+   "outcome": "survived",
+   "pop": 50,
+   "gold": 2287,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20047,
+   "score": 253.1,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 0,
+   "debt": 26,
+   "turns": 100,
+   "roads": 10
+  },
+  {
+   "seed": 20048,
+   "score": 3948.4,
+   "outcome": "survived",
+   "pop": 40,
+   "gold": 3410,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20049,
+   "score": 74.6,
+   "outcome": "survived",
+   "pop": 10,
+   "gold": 5,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20050,
+   "score": 6933.9,
+   "outcome": "survived",
+   "pop": 43,
+   "gold": 6194,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20051,
+   "score": 3875.4,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 3263,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20052,
+   "score": 1741.2,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 1133,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20053,
+   "score": 542.5,
+   "outcome": "survived",
+   "pop": 28,
+   "gold": 387,
+   "debt": 0,
+   "turns": 100,
+   "roads": 8
+  },
+  {
+   "seed": 20054,
+   "score": -496.4,
+   "outcome": "collapse",
+   "pop": 3,
+   "gold": 0,
+   "debt": 107,
+   "turns": 68,
+   "roads": 3
+  },
+  {
+   "seed": 20055,
+   "score": 672.8,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 256,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20056,
+   "score": 1483.6,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 834,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20057,
+   "score": 5801.2,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 5181,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20058,
+   "score": -719.0,
+   "outcome": "bankrupt",
+   "pop": 6,
+   "gold": 0,
+   "debt": 266,
+   "turns": 61,
+   "roads": 4
+  },
+  {
+   "seed": 20059,
+   "score": 689.6,
+   "outcome": "survived",
+   "pop": 51,
+   "gold": 282,
+   "debt": 0,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20060,
+   "score": 695.6,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 240,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20061,
+   "score": 1215.6,
+   "outcome": "survived",
+   "pop": 34,
+   "gold": 641,
+   "debt": 0,
+   "turns": 100,
+   "roads": 5
+  },
+  {
+   "seed": 20062,
+   "score": 6095.9,
+   "outcome": "survived",
+   "pop": 80,
+   "gold": 4627,
+   "debt": 0,
+   "turns": 100,
+   "roads": 5
+  },
+  {
+   "seed": 20063,
+   "score": 1759.1,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 1216,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20064,
+   "score": 236.0,
+   "outcome": "survived",
+   "pop": 14,
+   "gold": 141,
+   "debt": 0,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20065,
+   "score": 2737.9,
+   "outcome": "survived",
+   "pop": 45,
+   "gold": 1914,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20066,
+   "score": 2404.0,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 1715,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20067,
+   "score": 4151.8,
+   "outcome": "survived",
+   "pop": 152,
+   "gold": 2280,
+   "debt": 0,
+   "turns": 100,
+   "roads": 9
+  },
+  {
+   "seed": 20068,
+   "score": 5082.2,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 4453,
+   "debt": 0,
+   "turns": 100,
+   "roads": 5
+  },
+  {
+   "seed": 20069,
+   "score": 717.0,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 508,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20070,
+   "score": 117.2,
+   "outcome": "survived",
+   "pop": 18,
+   "gold": 0,
+   "debt": 24,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20071,
+   "score": 9671.7,
+   "outcome": "survived",
+   "pop": 46,
+   "gold": 8707,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20072,
+   "score": 3868.5,
+   "outcome": "survived",
+   "pop": 50,
+   "gold": 3057,
+   "debt": 0,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20073,
+   "score": 2509.0,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 2091,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20074,
+   "score": 767.3,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 252,
+   "debt": 0,
+   "turns": 100,
+   "roads": 5
+  },
+  {
+   "seed": 20075,
+   "score": 255.4,
+   "outcome": "survived",
+   "pop": 17,
+   "gold": 160,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20076,
+   "score": 338.7,
+   "outcome": "survived",
+   "pop": 30,
+   "gold": 134,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20077,
+   "score": 856.0,
+   "outcome": "survived",
+   "pop": 44,
+   "gold": 383,
+   "debt": 0,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20078,
+   "score": 1081.9,
+   "outcome": "survived",
+   "pop": 47,
+   "gold": 487,
+   "debt": 0,
+   "turns": 100,
+   "roads": 4
+  },
+  {
+   "seed": 20079,
+   "score": 2500.8,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 2000,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20080,
+   "score": 3022.3,
+   "outcome": "survived",
+   "pop": 54,
+   "gold": 2303,
+   "debt": 0,
+   "turns": 100,
+   "roads": 7
+  },
+  {
+   "seed": 20081,
+   "score": 3367.9,
+   "outcome": "survived",
+   "pop": 47,
+   "gold": 2837,
+   "debt": 0,
+   "turns": 100,
+   "roads": 5
+  },
+  {
+   "seed": 20082,
+   "score": 1.1,
+   "outcome": "survived",
+   "pop": 10,
+   "gold": 0,
+   "debt": 72,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20083,
+   "score": 1551.5,
+   "outcome": "survived",
+   "pop": 29,
+   "gold": 1120,
+   "debt": 0,
+   "turns": 100,
+   "roads": 2
+  },
+  {
+   "seed": 20084,
+   "score": 3787.2,
+   "outcome": "survived",
+   "pop": 39,
+   "gold": 3120,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20085,
+   "score": 1488.0,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 934,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20086,
+   "score": 5916.5,
+   "outcome": "survived",
+   "pop": 46,
+   "gold": 5108,
+   "debt": 0,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20087,
+   "score": 716.5,
+   "outcome": "survived",
+   "pop": 66,
+   "gold": 10,
+   "debt": 0,
+   "turns": 100,
+   "roads": 5
+  },
+  {
+   "seed": 20088,
+   "score": 2614.6,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 2111,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20089,
+   "score": 1944.0,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 1226,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20090,
+   "score": 2665.7,
+   "outcome": "survived",
+   "pop": 38,
+   "gold": 1959,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20091,
+   "score": 6458.8,
+   "outcome": "survived",
+   "pop": 146,
+   "gold": 3976,
+   "debt": 0,
+   "turns": 100,
+   "roads": 11
+  },
+  {
+   "seed": 20092,
+   "score": 5124.4,
+   "outcome": "survived",
+   "pop": 35,
+   "gold": 4631,
+   "debt": 0,
+   "turns": 100,
+   "roads": 8
+  },
+  {
+   "seed": 20093,
+   "score": -717.3,
+   "outcome": "bankrupt",
+   "pop": 8,
+   "gold": 0,
+   "debt": 257,
+   "turns": 89,
+   "roads": 4
+  },
+  {
+   "seed": 20094,
+   "score": 3039.5,
+   "outcome": "survived",
+   "pop": 37,
+   "gold": 2462,
+   "debt": 0,
+   "turns": 100,
+   "roads": 3
+  },
+  {
+   "seed": 20095,
+   "score": -57.8,
+   "outcome": "survived",
+   "pop": 3,
+   "gold": 0,
+   "debt": 74,
+   "turns": 100,
+   "roads": 6
+  },
+  {
+   "seed": 20096,
+   "score": 1825.3,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 1356,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  },
+  {
+   "seed": 20097,
+   "score": 488.3,
+   "outcome": "survived",
+   "pop": 22,
+   "gold": 336,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20098,
+   "score": 2485.7,
+   "outcome": "survived",
+   "pop": 36,
+   "gold": 1817,
+   "debt": 0,
+   "turns": 100,
+   "roads": 1
+  },
+  {
+   "seed": 20099,
+   "score": 3901.9,
+   "outcome": "survived",
+   "pop": 28,
+   "gold": 3430,
+   "debt": 0,
+   "turns": 100,
+   "roads": 0
+  }
+ ]
+}

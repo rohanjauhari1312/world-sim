@@ -9,12 +9,16 @@ def cruise(w, tax=0.2):
     p = w.p
     w.act_tax(tax)
     need = w.pop * p["food_per_pop"]
-    farm_out = max(p["yield_"]["farm"] * w.fert * w.edu, 1e-6)
-    want_farm = min(w.slots("farm"), math.ceil(need * 1.15 / farm_out))
+    want_farm = min(w.slots("farm"), w.workers_for_food(need * 1.15))
     free = w.workers()
     alloc = {"farm": min(want_farm, free)}
     free -= alloc["farm"]
-    rest = sorted(("lumberyard", "mine"), key=lambda k: -p["yield_"][k] * w.ref[PRODUCES[k]] * (w.reserve > 1 or k != "mine"))
+    def worth(k):
+        ts = w.ranked(k)
+        if not ts or (k == "mine" and w.reserve() < 1):
+            return 0
+        return w.unit(ts[0], k) * w.ref[PRODUCES[k]]
+    rest = sorted(("lumberyard", "mine"), key=lambda k: -worth(k))
     for k in rest:
         alloc[k] = min(w.slots(k), free)
         free -= alloc[k]
@@ -56,7 +60,8 @@ class Random:
         for _ in range(r.randint(0, 4)):
             c = r.choice(["build", "assign", "trade", "tax", "borrow", "repay"])
             if c == "build":
-                w.act_build(r.choice(["farm", "lumberyard", "mine", "house", "school", "levee"]), 1)
+                w.act_build(r.choice(["farm", "lumberyard", "mine", "house", "school", "levee", "road"]),
+                            r.randint(0, 15), r.randint(0, 15))
             elif c == "assign":
                 n = w.workers()
                 a = r.randint(0, n)
@@ -73,13 +78,9 @@ class Random:
                 w.act_repay(r.uniform(10, 80))
 
 
-BUILD_OPTIONS = [None, ("farm", 1), ("lumberyard", 1), ("mine", 1), ("house", 1), ("house", 2),
-                 ("school", 1), ("levee", 1)]
-
-
-def macro(w, build, tax):
-    if build:
-        w.act_build(*build)
+def macro(w, builds, tax):
+    for kind, t in builds or ():
+        w.act_build(kind, t[0], t[1])
     cruise(w, tax)
 
 
@@ -107,10 +108,28 @@ class Lookahead:
             total += c.score()
         return total / len(seeds)
 
+    def candidates(self, w):
+        out = [None]
+        for kind, k in (("farm", 2), ("lumberyard", 1), ("mine", 2), ("house", 1), ("school", 1), ("levee", 1)):
+            for t in w.sites(kind, k):
+                if kind == "levee" and not any(w.T.risk[q] > 0.25 for q in w.tiles if abs(q[0] - t[0]) + abs(q[1] - t[1]) <= 3):
+                    continue
+                out.append([(kind, t)])
+        prods = [(t, k) for t, k in w.tiles.items() if k in WORK]
+        prods.sort(key=lambda tk: -w.unit(tk[0], tk[1]) / max(w.deliver(tk[0]), 0.2) * (1 - w.deliver(tk[0])) * w.ref[PRODUCES[tk[1]]])
+        seen = set()
+        for t, _ in prods[:3]:
+            for bridge in (False, True):
+                route = tuple(w.road_routes(t, bridge))
+                if route and route not in seen:
+                    seen.add(route)
+                    out.append([("road", q) for q in route])
+        return out
+
     def act(self, env):
         w = env.w
         seeds = [w.t * 1000 + i for i in range(self.rollouts)]
-        cands = [(b, 0.2) for b in BUILD_OPTIONS] + [(None, t) for t in self.taxes if t != 0.2]
+        cands = [(b, 0.2) for b in self.candidates(w)] + [(None, t) for t in self.taxes if t != 0.2]
         best = max(cands, key=lambda c: self.value(w, c[0], c[1], seeds))
         macro(w, *best)
 

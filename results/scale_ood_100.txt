@@ -1,0 +1,4 @@
+cruise       mean    849.6  median    422.0  failed  32/100  (1s)
+greedy       mean   1334.4  median    872.0  failed  24/100  (26s)
+lookahead10  mean   2039.3  median   1942.8  failed  17/100  (82s)
+lookahead40  mean   2159.4  median   1813.6  failed   9/100  (224s)
