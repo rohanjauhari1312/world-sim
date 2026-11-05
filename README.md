@@ -2,6 +2,10 @@
 
 A settlement-management game on irregular terrain, for training long-horizon planning and economic reasoning. The agent calls tools (build at x,y, assign_workers, trade, set_tax, borrow, repay, end_turn). Score after 100 turns is gold - debt + stockpile + population value. Buildings only count through what they produce.
 
+## Why this environment
+
+Current models choose reasonable next moves but plan poorly. Here the payoff from a house, school, road or levee shows up 10 to 40 turns later, and every world has different rules, terrain and hazards, so a strategy cannot be memorized. The model has to read the map, work out how the economy responds, and plan around delayed returns. The score is the long-run outcome, so greedy play is punished.
+
 ## Terrain
 
 Every world is a 16x16 map generated from a seed: noisy elevation with a ridge that has a pass in it, a river that winds downhill from the highlands with a few fords, lakes, forests, and ore deposits in the hills. Nothing is on a grid template, and no two worlds look alike.
@@ -46,3 +50,11 @@ Gemma-2-9B-it (4-bit), 3 unseen terrain worlds, 20 turns each, traces in `result
 What the traces show: the model places roads and buildings, but it orders builds it cannot afford (wood is the usual shortfall), puts buildings on tiles that are already taken, and tries to build on water and the town tile. Earlier flat-map runs (3 worlds, 20 turns) are in `results/llm_gemma2_9b/` and `results/llm_qwen0p5b_v2/`.
 
 Small sample. A 100-turn run on many worlds is the next step, and needs a faster inference setup than a single laptop.
+
+## Limits and next steps
+
+- The 9B result is 3 worlds at 20 turns. It shows the model plays below a planner, not by how much at the full 100 turns.
+- The planners use the true simulator. They show how much room there is above the model, not what a learned agent can reach.
+- The planner's road candidates are simple (cheapest existing route and a bridged route). Gains flatten between 20 and 40 turns of lookahead, so better route search could lift the ceiling.
+- No unit tests yet.
+- Next: a 100-turn run on 20+ worlds with a faster inference setup, then training on traces from the planners and checking whether a trained model beats greedy play on unseen worlds.
