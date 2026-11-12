@@ -53,6 +53,10 @@ What the traces show: the model places roads and buildings, but it orders builds
 
 Small sample. A 100-turn run on many worlds is the next step, and needs a faster inference setup than a single laptop.
 
+## Training on planner traces (in progress)
+
+`collect_traces.py` replays the 20-turn planner over 200 train worlds and saves each turn as (observation, tool-call JSON), `make_sft.py` keeps the top half of surviving runs and builds 1,149 examples, and a LoRA fine-tune of Qwen2.5-0.5B-4bit on them ran to iteration 450 of 600 (validation loss 1.42 at iteration 1, 0.46 at 200, 0.30 at 400; log in `results/sft_qwen05.log`). The tuned model has not been evaluated yet, so there is no claim about behaviour. The untuned 0.5B base returned unusable replies on 28 of 40 turns on its first world (`results/llm_qwen05_base_h40/`). `results/world_sim_summary.png` summarizes everything above.
+
 ## Limits and next steps
 
 - The 9B result is 3 worlds at 20 turns. It shows the model plays below a planner, not by how much at the full 100 turns.

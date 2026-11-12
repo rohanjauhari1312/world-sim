@@ -1,0 +1,12 @@
+[remotion] BEHIND: 4.0.535 installed, 4.0.541 is latest. Bear's rule: use the latest Remotion. Run `./art remotion-upgrade`, then re-render and re-gate.
+[remotion] B00: ok: ClaudeComposerAsk -> media/B00.mp4
+[remotion] B01: ok: WorldTerrain -> media/B01.mp4
+[remotion] B02: ok: WorldTerrain -> media/B02.mp4
+[remotion] B03: ok: WorldLoop -> media/B03.mp4
+[remotion] B04: ok: WorldLadder -> media/B04.mp4
+[remotion] B05: ok: WorldCompare -> media/B05.mp4
+[remotion] B06: ok: WorldGemma -> media/B06.mp4
+[remotion] BVDT: ok: ClaudeVerdictArtifact -> media/BVDT.mp4
+[remotion] BOUT: ok: ClaudeTitleOutro -> media/BOUT.mp4
+[remotion] stamped provenance in beat_sheet.json + updated consumers.json
+[remotion] done — run `bash scripts/run.sh <REEL>` to compile the cut

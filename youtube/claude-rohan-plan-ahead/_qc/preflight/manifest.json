@@ -1,0 +1,91 @@
+{
+  "out": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight",
+  "beats": [
+    {
+      "beat_id": "B00",
+      "pattern": "ClaudeComposerAsk",
+      "props": {
+        "greeting": "Namaste, Rohan",
+        "topic": "RL ENVIRONMENTS · PLANNING",
+        "segment": "Plan Ahead.",
+        "command": "Build me a city simulation on irregular terrain where good play needs planning 20 to 40 turns ahead. Generate every world from a seed, add hazards and politics, and test whether a 9B model can do it.",
+        "runningText": "running 200 worlds…",
+        "folderLabel": "Rohan Jauhari",
+        "output": [
+          "planners that look further ahead score higher",
+          "a 9B model trails a 20-turn planner",
+          "every world is a different map"
+        ]
+      }
+    },
+    {
+      "beat_id": "B01",
+      "pattern": "WorldTerrain",
+      "props": {
+        "phase": "terrain",
+        "sparkLine": "A new seed, a new land."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "pattern": "WorldTerrain",
+      "props": {
+        "phase": "path",
+        "sparkLine": "The route bends."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "pattern": "WorldLoop",
+      "props": {
+        "sparkLine": "See. Act. The world answers."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "pattern": "WorldLadder",
+      "props": {
+        "sparkLine": "Looking further pays."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "pattern": "WorldCompare",
+      "props": {
+        "sparkLine": "Same land. Same luck."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "pattern": "WorldGemma",
+      "props": {
+        "sparkLine": "Sensible plans, bad bookkeeping."
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "pattern": "ClaudeVerdictArtifact",
+      "props": {
+        "artifactTitle": "Plan Ahead.",
+        "artifactHeading": "What the evidence supports",
+        "brandLabel": "Rohan Jauhari",
+        "artifactLines": [
+          "Deeper planning scores higher: 1247 → 1835 → 2637 → 2847 on 200 unseen worlds",
+          "Failed towns fall from 37 of 200 (never invests) to 10 (40 turns ahead)",
+          "Gemma-2-9B scores 533: above never investing (110), below a 20-turn planner (1315)",
+          "Unproven: the 9B result at 100 turns, and that training closes the gap",
+          "Limits: 3 worlds at 20 turns for the model; planners use the true simulator"
+        ]
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "pattern": "ClaudeTitleOutro",
+      "props": {
+        "title": "Plan Ahead.",
+        "slug": "claude-rohan-plan-ahead",
+        "handle": "Rohan Jauhari"
+      }
+    }
+  ]
+}

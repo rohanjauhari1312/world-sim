@@ -1,0 +1,10 @@
+[kokoro] beat-B00.mp3  13.35s  voice=am_onyx  speed=1.0
+[kokoro] beat-B01.mp3  13.06s  voice=am_onyx  speed=1.0
+[kokoro] beat-B02.mp3  14.40s  voice=am_onyx  speed=1.0
+[kokoro] beat-B03.mp3  15.25s  voice=am_onyx  speed=1.0
+[kokoro] beat-B04.mp3  16.04s  voice=am_onyx  speed=1.0
+[kokoro] beat-B05.mp3  14.93s  voice=am_onyx  speed=1.0
+[kokoro] beat-B06.mp3  17.05s  voice=am_onyx  speed=1.0
+[kokoro] beat-BVDT.mp3  13.48s  voice=am_onyx  speed=1.0
+[kokoro] beat-BOUT.mp3  2.65s  voice=am_onyx  speed=1.0
+[kokoro] 9 beat(s) generated · cost $0.00 · durations are GROUND TRUTH, same as generate_audio.py

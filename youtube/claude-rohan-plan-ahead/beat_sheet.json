@@ -1,0 +1,467 @@
+{
+  "metadata": {
+    "title": "Plan Ahead.",
+    "slug": "claude-rohan-plan-ahead",
+    "topic": "RL ENVIRONMENTS · LONG-HORIZON PLANNING",
+    "register": "Teardown",
+    "audience": "Claude",
+    "brand": "claude-liam",
+    "voice": "am_onyx",
+    "persona": "Rohan Jauhari (AI narration)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "style_preset": "claude",
+    "ground": "#FAF9F5",
+    "greeting": "Namaste, Rohan",
+    "greeting_note": "hello lexicon: Hindi. Wagwan is Bear's only — Liam never takes it (IN-FOR-BEAR LAW).",
+    "color_semantics": "Claude fidelity skin throughout. UI beats at B00 / B05 ask / verdict / handoff / outro only (ILLUSTRATE LAW); every body beat is a purpose-built C3 concept illustration on the cream stage with exactly one terracotta moment.",
+    "note": "Project-update reel for World Sim. Every number on screen is measured and traceable to world-sim/README.md and world-sim/results/*.json: 200 unseen worlds at 100 turns (baselines), one seed (10003) cruise vs 40-turn planner, and Gemma-2-9B on 3 worlds at 20 turns. The 9B result is a small sample and is labelled as one.",
+    "tags": [
+      "reinforcement learning",
+      "RL environments",
+      "long-horizon planning",
+      "world model",
+      "Humanitarians AI"
+    ],
+    "sources": [
+      "world-sim/README.md",
+      "world-sim/results/scale_eval_200.json",
+      "world-sim/results/scale_ood_100.json",
+      "world-sim/results/llm_gemma2_9b_terrain/summary.json"
+    ],
+    "build": {
+      "at": "2026-11-12T10:22:32",
+      "cut": "master",
+      "filled": 9,
+      "of": 9,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "ASK",
+      "lane": "BOOKEND",
+      "narration": "Hi, I am Rohan, and this video is about a city game I built to test whether AI models can plan ahead. The voice you're hearing is AI narration of my work. Models pick decent next moves. They plan badly, and this game punishes that.",
+      "estimated_duration_s": 17,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Namaste, Rohan",
+            "topic": "RL ENVIRONMENTS · PLANNING",
+            "segment": "Plan Ahead.",
+            "command": "Build me a city simulation on irregular terrain where good play needs planning 20 to 40 turns ahead. Generate every world from a seed, add hazards and politics, and test whether a 9B model can do it.",
+            "runningText": "running 200 worlds…",
+            "folderLabel": "Rohan Jauhari",
+            "output": [
+              "planners that look further ahead score higher",
+              "a 9B model trails a 20-turn planner",
+              "every world is a different map"
+            ]
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": "2026-11-07T18:57:51.873899+00:00"
+          }
+        },
+        "motion": "type-on"
+      },
+      "narration_text": "Hi, I am Rohan, and this video is about a city game I built to test whether AI models can plan ahead. The voice you're hearing is AI narration of my work. Models pick decent next moves. They plan badly, and this game punishes that.",
+      "actual_duration_s": 13.35,
+      "audio_file": "mp3/beat-B00.mp3",
+      "render_duration_s": 13.375,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "remotion:ClaudeComposerAsk",
+        "at": "2026-11-12T10:22:32"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "THE BUILD",
+      "lane": "BODY",
+      "narration": "Every town sits on its own generated land. Hills, a ridge with one pass through it, a winding river with a few fords, lakes, forest, and ore only in the hills. A new seed gives a different map, so no strategy can be memorized.",
+      "estimated_duration_s": 18,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "WorldTerrain",
+          "props": {
+            "phase": "terrain",
+            "sparkLine": "A new seed, a new land."
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": "2026-11-07T19:21:26.106220+00:00"
+          }
+        },
+        "motion": "illustrate",
+        "show": [
+          {
+            "at": "Every town sits",
+            "event": "the map draws in row by row"
+          },
+          {
+            "at": "a ridge",
+            "event": "river and lakes appear"
+          },
+          {
+            "at": "ore",
+            "event": "ore dots and forest mark the hills"
+          },
+          {
+            "at": "memorized",
+            "event": "terracotta town marker lands"
+          }
+        ]
+      },
+      "narration_text": "Every town sits on its own generated land. Hills, a ridge with one pass through it, a winding river with a few fords, lakes, forest, and ore only in the hills. A new seed gives a different map, so no strategy can be memorized.",
+      "actual_duration_s": 13.06,
+      "audio_file": "mp3/beat-B01.mp3",
+      "render_duration_s": 13.083333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "remotion:WorldTerrain",
+        "at": "2026-11-12T10:22:32"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "THE BUILD",
+      "lane": "BODY",
+      "narration": "Where you build matters. Goods reach the town along the cheapest path, and that is rarely the straight line. Slopes, forest and unbridged water make a tile expensive to cross, so the route bends. Roads and bridges cost money now and cut the cost of every trip after.",
+      "estimated_duration_s": 19,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "WorldTerrain",
+          "props": {
+            "phase": "path",
+            "sparkLine": "The route bends."
+          },
+          "rendered": {
+            "out": "media/B02.mp4",
+            "at": "2026-11-07T19:22:05.403325+00:00"
+          }
+        },
+        "motion": "illustrate",
+        "show": [
+          {
+            "at": "straight line",
+            "event": "dashed straight line from mine to town"
+          },
+          {
+            "at": "the route bends",
+            "event": "terracotta cheapest route draws along the real path"
+          },
+          {
+            "at": "Roads and bridges",
+            "event": "cost note sets"
+          }
+        ]
+      },
+      "narration_text": "Where you build matters. Goods reach the town along the cheapest path, and that is rarely the straight line. Slopes, forest and unbridged water make a tile expensive to cross, so the route bends. Roads and bridges cost money now and cut the cost of every trip after.",
+      "actual_duration_s": 14.4,
+      "audio_file": "mp3/beat-B02.mp3",
+      "render_duration_s": 14.416666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B02.mp4",
+        "filled_by": "remotion:WorldTerrain",
+        "at": "2026-11-12T10:22:32"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "THE BUILD",
+      "lane": "BODY",
+      "narration": "The agent sees the town as text and a map. Then it calls tools. Build here, assign workers, trade, set taxes, borrow. The world answers. Prices move with its own trades. People need food and housing. Floods hit low ground near the river. A hundred turns, and one score at the end.",
+      "estimated_duration_s": 19,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "WorldLoop",
+          "props": {
+            "sparkLine": "See. Act. The world answers."
+          },
+          "rendered": {
+            "out": "media/B03.mp4",
+            "at": "2026-11-07T19:12:43.976980+00:00"
+          }
+        },
+        "motion": "illustrate",
+        "show": [
+          {
+            "at": "sees the town",
+            "event": "first card fades up"
+          },
+          {
+            "at": "calls tools",
+            "event": "tool call card types in"
+          },
+          {
+            "at": "The world answers",
+            "event": "third card and arrow arrive"
+          },
+          {
+            "at": "one score",
+            "event": "terracotta score line slides in"
+          }
+        ]
+      },
+      "narration_text": "The agent sees the town as text and a map. Then it calls tools. Build here, assign workers, trade, set taxes, borrow. The world answers. Prices move with its own trades. People need food and housing. Floods hit low ground near the river. A hundred turns, and one score at the end.",
+      "actual_duration_s": 15.25,
+      "audio_file": "mp3/beat-B03.mp3",
+      "render_duration_s": 15.25,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B03.mp4",
+        "filled_by": "remotion:WorldLoop",
+        "at": "2026-11-12T10:22:32"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "THE EVIDENCE",
+      "lane": "BODY",
+      "narration": "I tested planners that look further ahead. On two hundred unseen worlds, a town that never invests scores twelve forty seven. Looking one turn ahead, eighteen thirty five. Ten turns, twenty six thirty seven. Forty turns, twenty eight forty seven, and far fewer towns collapse. Planning depth pays.",
+      "estimated_duration_s": 19,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "WorldLadder",
+          "props": {
+            "sparkLine": "Looking further pays."
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": "2026-11-07T19:10:40.593407+00:00"
+          }
+        },
+        "motion": "illustrate",
+        "show": [
+          {
+            "at": "never invests",
+            "event": "first bar grows"
+          },
+          {
+            "at": "one turn ahead",
+            "event": "second bar grows"
+          },
+          {
+            "at": "Ten turns",
+            "event": "fourth bar grows"
+          },
+          {
+            "at": "Forty turns",
+            "event": "terracotta bar grows full, number lands"
+          }
+        ]
+      },
+      "narration_text": "I tested planners that look further ahead. On two hundred unseen worlds, a town that never invests scores twelve forty seven. Looking one turn ahead, eighteen thirty five. Ten turns, twenty six thirty seven. Forty turns, twenty eight forty seven, and far fewer towns collapse. Planning depth pays.",
+      "actual_duration_s": 16.04,
+      "audio_file": "mp3/beat-B04.mp3",
+      "render_duration_s": 16.041666666666668,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "remotion:WorldLadder",
+        "at": "2026-11-12T10:22:32"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "THE EVIDENCE",
+      "lane": "BODY",
+      "narration": "Same land, same luck, two ways to run it. On the left the town never invests. On the right it plans forty turns ahead. Mines on the ore, houses by the town, and roads laid along the cheap routes. By turn one hundred, ten twenty seven against fifty four ninety six.",
+      "estimated_duration_s": 19,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "WorldCompare",
+          "props": {
+            "sparkLine": "Same land. Same luck."
+          },
+          "rendered": {
+            "out": "media/B05.mp4",
+            "at": "2026-11-07T19:22:42.922276+00:00"
+          }
+        },
+        "motion": "illustrate",
+        "show": [
+          {
+            "at": "Same land",
+            "event": "both maps draw in"
+          },
+          {
+            "at": "plans forty turns ahead",
+            "event": "buildings and terracotta roads appear on the right"
+          },
+          {
+            "at": "fifty four ninety six",
+            "event": "both scores tick up"
+          }
+        ]
+      },
+      "narration_text": "Same land, same luck, two ways to run it. On the left the town never invests. On the right it plans forty turns ahead. Mines on the ore, houses by the town, and roads laid along the cheap routes. By turn one hundred, ten twenty seven against fifty four ninety six.",
+      "actual_duration_s": 14.93,
+      "audio_file": "mp3/beat-B05.mp3",
+      "render_duration_s": 14.958333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B05.mp4",
+        "filled_by": "remotion:WorldCompare",
+        "at": "2026-11-12T10:22:32"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "THE EVIDENCE",
+      "lane": "BODY",
+      "narration": "Then I put a nine billion parameter model in the same game. Gemma 2, three worlds, twenty turns. It scored five thirty three. A town that never invests scored nine fifty one on those same worlds, and a planner looking twenty turns ahead scored twelve fourteen. It plans sensibly, then orders buildings it cannot afford.",
+      "estimated_duration_s": 20,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "WorldGemma",
+          "props": {
+            "sparkLine": "Sensible plans, bad bookkeeping."
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": "2026-11-12T15:11:59.313286+00:00"
+          }
+        },
+        "motion": "illustrate",
+        "show": [
+          {
+            "at": "five thirty three",
+            "event": "terracotta Gemma bar grows first and shortest"
+          },
+          {
+            "at": "nine fifty one",
+            "event": "never-invests bar grows past it"
+          },
+          {
+            "at": "twelve fourteen",
+            "event": "planner bars grow longest"
+          }
+        ]
+      },
+      "narration_text": "Then I put a nine billion parameter model in the same game. Gemma 2, three worlds, twenty turns. It scored five thirty three. A town that never invests scored nine fifty one on those same worlds, and a planner looking twenty turns ahead scored twelve fourteen. It plans sensibly, then orders buildings it cannot afford.",
+      "actual_duration_s": 17.26,
+      "audio_file": "mp3/beat-B06.mp3",
+      "render_duration_s": 17.291666666666668,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "remotion:WorldGemma",
+        "at": "2026-11-12T10:22:32"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "verdict recap",
+      "lane": "BOOKEND",
+      "narration": "So here's what the evidence supports. Planning depth is worth a lot in this game, and a nine billion parameter model played below both a planner and a town that does nothing. What I have not shown is the full hundred turn result for the model, or that training closes the gap.",
+      "estimated_duration_s": 21,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Plan Ahead.",
+            "artifactHeading": "What the evidence supports",
+            "brandLabel": "Rohan Jauhari",
+            "artifactLines": [
+              "Deeper planning scores higher: 1247 → 1835 → 2637 → 2847 on 200 unseen worlds",
+              "Failed towns fall from 37 of 200 (never invests) to 10 (40 turns ahead)",
+              "Gemma-2-9B scores 533 on 3 worlds at 20 turns: below never investing (951) and a 20-turn planner (1214)",
+              "Unproven: the 9B result at 100 turns, and that training closes the gap",
+              "Limits: 3 worlds at 20 turns for the model; planners use the true simulator"
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": "2026-11-12T15:15:20.667284+00:00"
+          }
+        }
+      },
+      "narration_text": "So here's what the evidence supports. Planning depth is worth a lot in this game, and a nine billion parameter model played below both a planner and a town that does nothing. What I have not shown is the full hundred turn result for the model, or that training closes the gap.",
+      "actual_duration_s": 15.25,
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "render_duration_s": 15.25,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BVDT.mp4",
+        "filled_by": "remotion:ClaudeVerdictArtifact",
+        "at": "2026-11-12T10:22:32"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "BOOKEND",
+      "narration": "Plan ahead. Rohan Jauhari.",
+      "estimated_duration_s": 8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Plan Ahead.",
+            "slug": "claude-rohan-plan-ahead",
+            "handle": "Rohan Jauhari"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": "2026-11-07T19:03:45.153069+00:00"
+          }
+        }
+      },
+      "narration_text": "Plan ahead. Rohan Jauhari.",
+      "actual_duration_s": 2.65,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "render_duration_s": 2.6666666666666665,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "remotion:ClaudeTitleOutro",
+        "at": "2026-11-12T10:22:32"
+      }
+    }
+  ]
+}

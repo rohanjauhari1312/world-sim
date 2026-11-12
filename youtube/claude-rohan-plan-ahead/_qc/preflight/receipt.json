@@ -1,0 +1,196 @@
+{
+  "status": "Rendered for visual inspection; not a visual PASS",
+  "scale": 0.5,
+  "concurrency": 1,
+  "rows": [
+    {
+      "beat": "B00",
+      "pattern": "ClaudeComposerAsk",
+      "fraction": 0.25,
+      "frame": 225,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B00-25.png"
+    },
+    {
+      "beat": "B00",
+      "pattern": "ClaudeComposerAsk",
+      "fraction": 0.5,
+      "frame": 450,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B00-50.png"
+    },
+    {
+      "beat": "B00",
+      "pattern": "ClaudeComposerAsk",
+      "fraction": 0.95,
+      "frame": 855,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B00-95.png"
+    },
+    {
+      "beat": "B01",
+      "pattern": "WorldTerrain",
+      "fraction": 0.25,
+      "frame": 112,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B01-25.png"
+    },
+    {
+      "beat": "B01",
+      "pattern": "WorldTerrain",
+      "fraction": 0.5,
+      "frame": 225,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B01-50.png"
+    },
+    {
+      "beat": "B01",
+      "pattern": "WorldTerrain",
+      "fraction": 0.95,
+      "frame": 427,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B01-95.png"
+    },
+    {
+      "beat": "B02",
+      "pattern": "WorldTerrain",
+      "fraction": 0.25,
+      "frame": 112,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B02-25.png"
+    },
+    {
+      "beat": "B02",
+      "pattern": "WorldTerrain",
+      "fraction": 0.5,
+      "frame": 225,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B02-50.png"
+    },
+    {
+      "beat": "B02",
+      "pattern": "WorldTerrain",
+      "fraction": 0.95,
+      "frame": 427,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B02-95.png"
+    },
+    {
+      "beat": "B03",
+      "pattern": "WorldLoop",
+      "fraction": 0.25,
+      "frame": 112,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B03-25.png"
+    },
+    {
+      "beat": "B03",
+      "pattern": "WorldLoop",
+      "fraction": 0.5,
+      "frame": 225,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B03-50.png"
+    },
+    {
+      "beat": "B03",
+      "pattern": "WorldLoop",
+      "fraction": 0.95,
+      "frame": 427,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B03-95.png"
+    },
+    {
+      "beat": "B04",
+      "pattern": "WorldLadder",
+      "fraction": 0.25,
+      "frame": 112,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B04-25.png"
+    },
+    {
+      "beat": "B04",
+      "pattern": "WorldLadder",
+      "fraction": 0.5,
+      "frame": 225,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B04-50.png"
+    },
+    {
+      "beat": "B04",
+      "pattern": "WorldLadder",
+      "fraction": 0.95,
+      "frame": 427,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B04-95.png"
+    },
+    {
+      "beat": "B05",
+      "pattern": "WorldCompare",
+      "fraction": 0.25,
+      "frame": 112,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B05-25.png"
+    },
+    {
+      "beat": "B05",
+      "pattern": "WorldCompare",
+      "fraction": 0.5,
+      "frame": 225,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B05-50.png"
+    },
+    {
+      "beat": "B05",
+      "pattern": "WorldCompare",
+      "fraction": 0.95,
+      "frame": 427,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B05-95.png"
+    },
+    {
+      "beat": "B06",
+      "pattern": "WorldGemma",
+      "fraction": 0.25,
+      "frame": 112,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B06-25.png"
+    },
+    {
+      "beat": "B06",
+      "pattern": "WorldGemma",
+      "fraction": 0.5,
+      "frame": 225,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B06-50.png"
+    },
+    {
+      "beat": "B06",
+      "pattern": "WorldGemma",
+      "fraction": 0.95,
+      "frame": 427,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/B06-95.png"
+    },
+    {
+      "beat": "BVDT",
+      "pattern": "ClaudeVerdictArtifact",
+      "fraction": 0.25,
+      "frame": 255,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/BVDT-25.png"
+    },
+    {
+      "beat": "BVDT",
+      "pattern": "ClaudeVerdictArtifact",
+      "fraction": 0.5,
+      "frame": 510,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/BVDT-50.png"
+    },
+    {
+      "beat": "BVDT",
+      "pattern": "ClaudeVerdictArtifact",
+      "fraction": 0.95,
+      "frame": 969,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/BVDT-95.png"
+    },
+    {
+      "beat": "BOUT",
+      "pattern": "ClaudeTitleOutro",
+      "fraction": 0.25,
+      "frame": 45,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/BOUT-25.png"
+    },
+    {
+      "beat": "BOUT",
+      "pattern": "ClaudeTitleOutro",
+      "fraction": 0.5,
+      "frame": 90,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/BOUT-50.png"
+    },
+    {
+      "beat": "BOUT",
+      "pattern": "ClaudeTitleOutro",
+      "fraction": 0.95,
+      "frame": 171,
+      "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/_qc/preflight/BOUT-95.png"
+    }
+  ]
+}

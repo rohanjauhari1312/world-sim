@@ -1,0 +1,35 @@
+<!doctype html><meta charset=utf-8><title>World Sim results</title>
+<style>
+:root{--bg:#FAF9F5;--ink:#3D3929;--soft:#73705F;--pill:#EDEBE1;--acc:#D97757}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 Georgia,serif;width:1600px;height:1000px;box-sizing:border-box;padding:48px 64px}
+h1{font-size:44px;margin:0 0 4px;letter-spacing:-.01em}.sub{color:var(--soft);font:14px -apple-system,Helvetica,sans-serif;letter-spacing:2px;text-transform:uppercase;margin-bottom:34px}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:44px}
+h2{font:700 13px -apple-system,Helvetica,sans-serif;letter-spacing:2.4px;text-transform:uppercase;color:var(--soft);margin:0 0 4px}
+.t{font-size:24px;margin:0 0 20px;min-height:58px}
+.row{display:grid;grid-template-columns:150px 1fr 60px;align-items:center;gap:10px;margin:11px 0;font-size:17px}
+.lab{text-align:right;color:var(--soft)}.bar{height:26px;background:var(--pill);border-radius:5px}.bar i{display:block;height:100%;border-radius:5px;background:var(--soft)}
+.row.a .lab{color:var(--ink);font-weight:700}.row.a .bar i{background:var(--ink);box-shadow:0 5px 0 -2px var(--acc)}.v{font-weight:700}
+.note{margin-top:20px;color:var(--soft);font-size:15px}.big{font-size:54px;font-weight:700;margin:6px 0 0}.big small{font-size:18px;color:var(--soft);font-weight:400}
+svg{width:100%;height:230px;background:#fff;border:1px solid #E5E2D9;border-radius:8px}
+.foot{position:absolute;left:64px;bottom:40px;right:64px;border-top:2px solid var(--acc);padding-top:14px;font-size:19px}
+</style>
+<h1>World Sim: results so far</h1>
+<div class=sub>City-planning environment on generated terrain · github.com/rohanjauhari1312/world-sim</div>
+<div class=grid>
+<div><h2>200 unseen worlds · 100 turns</h2><div class=t>The further ahead it plans, the more it makes</div><div id=a></div>
+<div class=note>Failed towns: 37 of 200 never investing, 10 of 200 at 40 turns ahead.</div></div>
+<div><h2>Same 3 worlds · 20 turns</h2><div class=t>A 9B model scores below every scripted agent</div><div id=b></div>
+<div class=note>Gemma-2-9B places roads and buildings, but orders builds it cannot afford and builds on taken tiles.</div></div>
+<div><h2>Fine-tuning on planner traces</h2><div class=t>Loss falls fast. Behaviour is not tested yet.</div>
+<svg viewBox="0 0 400 230"><g font-family=Helvetica font-size=11 fill="#73705F"><text x=14 y=24>1.42</text><text x=14 y=150>0.46</text><text x=14 y=186>0.30</text>
+<text x=60 y=216>iter 1</text><text x=190 y=216>iter 200</text><text x=320 y=216>iter 400</text></g>
+<polyline fill=none stroke="#D97757" stroke-width=4 points="70,20 200,146 330,182"/><g fill="#3D3929"><circle cx=70 cy=20 r=6 /><circle cx=200 cy=146 r=6 /><circle cx=330 cy=182 r=6 /></g></svg>
+<div class=big>0.30 <small>validation loss at 400 of 600 iterations</small></div>
+<div class=note>Qwen2.5-0.5B, 1,049 turns from 97 top planner runs. Untuned base on one world: 28 of 40 replies unusable. The tuned model has not been evaluated.</div></div>
+</div>
+<div class=foot>Corrected: an earlier 9B comparison used 100-turn scripted scores against 20-turn model scores. This chart uses matched horizons.</div>
+<script>
+function bars(id,rows,max){document.getElementById(id).innerHTML=rows.map(r=>`<div class="row ${r[2]?'a':''}"><div class=lab>${r[0]}</div><div class=bar><i style="width:${r[1]/max*100}%"></i></div><div class=v>${r[1].toLocaleString()}</div></div>`).join('')}
+bars('a',[['never invests',1247],['1 turn ahead',1835],['4 turns ahead',2409],['10 turns ahead',2637],['20 turns ahead',2705],['40 turns ahead',2847,1]],3000);
+bars('b',[['Gemma-2-9B',533,1],['1 turn ahead',854],['never invests',951],['10 turns ahead',1158],['20 turns ahead',1214]],1300);
+</script>

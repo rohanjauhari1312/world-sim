@@ -1,0 +1,17 @@
+[typecheck] wrote /Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/TYPECHECK.md
+[typecheck] §8.10 B00: SKIP
+[typecheck] §8.10 B01: SKIP
+[typecheck] §8.10 B02: SKIP
+[typecheck] §8.10 B03: SKIP
+[typecheck] §8.10 B04: SKIP
+[typecheck] §8.10 B05: SKIP
+[typecheck] §8.10 B06: SKIP
+[typecheck] §8.10 BVDT: 0.34
+[typecheck] §8.10 BOUT: SKIP
+[typecheck] GATE T: PASS
+[art] compiled B06  VIDEO    17.3s  ← B06.mp4
+[art] compiled BVDT  VIDEO    15.2s  ← BVDT.mp4
+[art] motion histogram: illustrate:6  remotion:2  type-on:1
+[art] build stamp → beat_sheet.json (9/9 filled)
+[art] wrote /Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/mp4/claude-rohan-plan-ahead.mp4  (122.3s, audio: per-beat timeline (source audio preserved), drawtext: no — PIL overlays)
+[art] slots: 9/9 filled — B00:VIDEO B01:VIDEO B02:VIDEO B03:VIDEO B04:VIDEO B05:VIDEO B06:VIDEO BVDT:VIDEO BOUT:VIDEO

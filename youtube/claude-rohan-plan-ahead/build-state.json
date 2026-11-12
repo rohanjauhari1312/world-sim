@@ -1,0 +1,27 @@
+{
+  "status": "ready",
+  "output": "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/mp4/claude-rohan-plan-ahead.mp4",
+  "sha256": "eeb4e112d12c4b1708859f3071890d63b94e09da4a6f3afe21d5bdbd4f910dad",
+  "duration_s": 122.33333333333334,
+  "input_sha256": {
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/media/B00.mp4": "8b72838a45721e1713efff4292b141355067509000436bc656f794fe164b888a",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/media/B01.mp4": "a5b11b6ca6ca9edab4e8f35abc4508e44cce0eec73ad5c24dd770f14742b94bb",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/media/B02.mp4": "2dcfc80c0a6f1c50ccaf2996bdd61f06a52ff7523329a3c193a16548f57df9b2",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/media/B03.mp4": "6e0afd6698dc04b4b93336380325866a8462bc1d5ccc8823ff80bb21e784ddd6",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/media/B04.mp4": "9375dd3587bfa8ac939b047644946b198a838c023a9b518a4cbf1ce70c16342e",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/media/B05.mp4": "d225076d7696afc77c39f40644bd64847f1d56f9b40a9da1dbf1b6a5788eeb14",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/media/B06.mp4": "aa38bdf279c654630e0d6df58d354de334dbd90b0eb6b46cd9d72c120e312ce5",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/media/BOUT.mp4": "356271bd1242daf54d61502a88395af69296b9a1af01c1eb91c247a3d5ef09d9",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/media/BVDT.mp4": "bebfe7ddf45d2dc6a44b9c99bb4beafcb4bacb28847f714886c579c5e338d150",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/mp3/beat-B00.mp3": "ce4dacc096c1400b37975895b01143ffd59d6abbe4185e0257bdc75dce64ffca",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/mp3/beat-B01.mp3": "a497ed77db7dcc7725cab7886e9216e6b6de6a388f5d3150c6dfa3b2d1b26a02",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/mp3/beat-B02.mp3": "3b6b73882bdb9b0c95b6037909147aa1854a9e084acf21d74ccdd2eba0f4e46a",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/mp3/beat-B03.mp3": "45f99abdd938ba998142d0d3947dbba162c4e3bb1dfc10fbc4f7a292310818ca",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/mp3/beat-B04.mp3": "f772373cb0c0d11dc2bb225e139ff71dd6573b469a5e79febe5ad5917ade233a",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/mp3/beat-B05.mp3": "ec4095a9ba4449acaf76711b230e9129ae11b5f6e5053444b81dd9322ef20461",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/mp3/beat-B06.mp3": "973899e0bf7b69d8e8204e452faea289ae9553356edeff33bae792278313487b",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/mp3/beat-BOUT.mp3": "b7d04a867f704e96c466e3e4cd64982108857167c58ecbecee90f484d88abe12",
+    "/Users/rohanjauhari/Desktop/Humanitarians/world-sim/youtube/claude-rohan-plan-ahead/mp3/beat-BVDT.mp3": "cd5e55df42eced58441ad3fd762427f1f8ac53227f8c742f1f1bead94770d662"
+  },
+  "at": "2026-11-12T15:22:36.367671+00:00"
+}
