@@ -134,8 +134,10 @@ class Lookahead:
         macro(w, *best)
 
 
-def play(env, agent, max_turns=500):
+def play(env, agent, max_turns=500, horizon=None):
     env.reset()
+    if horizon:
+        env.w.p["horizon"] = horizon
     for _ in range(max_turns):
         if env.done:
             break

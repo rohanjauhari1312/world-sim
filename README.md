@@ -45,7 +45,9 @@ Failed towns (collapse or bankruptcy) out of 200 on eval: cruise 37, greedy 36, 
 
 ## LLM run
 
-Gemma-2-9B-it (4-bit), 3 unseen terrain worlds, 20 turns each, traces in `results/llm_gemma2_9b_terrain/`. Mean score 533 (818, 450, 332). Scripted agents on the same worlds and horizon: cruise 110, greedy 246, lookahead 10 818, lookahead 20 1315. So the 9B beats a policy that never invests and the 1-turn greedy agent, but is well below a planner that looks 10 to 20 turns ahead.
+Gemma-2-9B-it (4-bit), 3 unseen terrain worlds (seeds 10000-10002), 20 turns each, traces in `results/llm_gemma2_9b_terrain/`. Mean score 533 (818, 450, 332). Scripted agents on the same worlds at the same 20-turn horizon (`horizon_baselines.py 20 3`): never invests 951, greedy 854, looks 10 turns ahead 1158, looks 20 turns ahead 1214. So the 9B scored below every scripted agent, including the one that never invests, on all three worlds.
+
+Correction (2026-11-12): an earlier version of this section compared the 9B's 20-turn scores with the scripted agents' 100-turn scores (a bug in `play()`, which reset the horizon). That version wrongly said the 9B beat the no-investing and greedy agents. The numbers above are the matched ones.
 
 What the traces show: the model places roads and buildings, but it orders builds it cannot afford (wood is the usual shortfall), puts buildings on tiles that are already taken, and tries to build on water and the town tile. Earlier flat-map runs (3 worlds, 20 turns) are in `results/llm_gemma2_9b/` and `results/llm_qwen0p5b_v2/`.
 
