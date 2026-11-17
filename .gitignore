@@ -3,3 +3,6 @@ __pycache__/
 .DS_Store
 data/
 adapters/
+results/*Report*.pdf
+results/*analysis_report.md
+results/dl*.out
